@@ -1,0 +1,162 @@
+{% extends 'base.html' %}
+
+
+{% block content %}
+
+
+<div class="container mt-5">
+
+
+<div class="card shadow p-4 mx-auto" style="max-width:500px;">
+
+
+
+<h2 class="text-center mb-3">
+
+Register
+
+</h2>
+
+
+
+{% if messages %}
+
+
+{% for message in messages %}
+
+
+<div class="alert alert-warning">
+
+{{message}}
+
+</div>
+
+
+{% endfor %}
+
+
+{% endif %}
+
+
+
+
+<form method="POST" enctype="multipart/form-data">
+
+
+{% csrf_token %}
+
+
+
+<label class="form-label">
+
+Username
+
+</label>
+
+
+<input 
+class="form-control mb-2"
+type="text"
+name="username"
+placeholder="Enter Username"
+required>
+
+
+
+
+<label class="form-label">
+
+Email
+
+</label>
+
+
+<input 
+class="form-control mb-2"
+type="email"
+name="email"
+placeholder="Enter Email"
+required>
+
+
+
+
+
+<label class="form-label">
+
+Password
+
+</label>
+
+
+<input 
+class="form-control mb-2"
+type="password"
+name="password"
+placeholder="Enter Password"
+required>
+
+
+
+
+<label class="form-label">
+
+Profile Picture
+
+</label>
+
+
+<input 
+class="form-control mb-3"
+type="file"
+name="profile_pic"
+accept="image/*">
+
+
+
+
+
+<button 
+class="btn btn-primary w-100"
+type="submit">
+
+
+Register
+
+
+</button>
+
+
+
+</form>
+
+
+
+
+
+<p class="text-center mt-3 mb-0">
+
+
+Already have an account?
+
+
+<a href="/login/">
+
+Login
+
+</a>
+
+
+
+</p>
+
+
+
+</div>
+
+
+</div>
+
+
+
+{% endblock %}

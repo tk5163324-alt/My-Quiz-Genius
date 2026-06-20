@@ -1,0 +1,155 @@
+subject,difficulty,question,option_a,option_b,option_c,option_d,answer,explanation
+Java,Easy,Who developed Java?,James Gosling,Dennis Ritchie,Bjarne Stroustrup,Guido van Rossum,James Gosling,Father of Java
+Java,Easy,Which company originally developed Java?,Sun Microsystems,Microsoft,Google,IBM,Sun Microsystems,Java was created at Sun Microsystems
+Java,Easy,What is the extension of Java source files?,.java,.class,.js,.py,.java,Java source code extension
+Java,Easy,Which method is the entry point of a Java program?,main(),start(),run(),init(),main(),Program execution starts here
+Java,Easy,Which keyword is used to create an object?,new,class,this,create,new,Creates objects
+Java,Easy,Java is a ?,Programming Language,Database,Operating System,Browser,Programming Language,High-level language
+Java,Easy,Which JVM stands for?,Java Virtual Machine,Java Variable Method,Java Vendor Machine,Java Visual Model,Java Virtual Machine,Executes bytecode
+Java,Easy,Which JDK stands for?,Java Development Kit,Java Deployment Kit,Java Design Kit,Java Document Kit,Java Development Kit,Used for development
+Java,Easy,Which JRE stands for?,Java Runtime Environment,Java Resource Engine,Java Run Engine,Java Runtime Editor,Java Runtime Environment,Used to run Java programs
+Java,Easy,Java is which type of language?,Object Oriented,Procedural,Assembly,Machine,Object Oriented,OOP language
+Java,Easy,Which keyword is used for inheritance?,extends,implements,inherits,super,extends,Class inheritance
+Java,Easy,Which keyword is used to define a class?,class,Class,define,object,class,Creates class
+Java,Easy,Which keyword is used to inherit interfaces?,implements,extends,inherit,interface,implements,Implements interface
+Java,Easy,Which symbol ends a statement in Java?,;,.,:,#,;,Statement terminator
+Java,Easy,Which data type stores whole numbers?,int,float,double,char,int,Integer values
+Java,Easy,Which data type stores decimal numbers?,double,int,char,boolean,double,Floating-point values
+Java,Easy,Which data type stores a single character?,char,String,int,double,char,Single character
+Java,Easy,Which data type stores true or false?,boolean,int,char,float,boolean,Logical values
+Java,Easy,What is default value of boolean?,false,true,0,null,false,Default boolean value
+Java,Easy,Which keyword is used for conditional statements?,if,for,while,switch,if,Decision making
+Java,Easy,Which loop repeats while condition is true?,while,if,switch,break,while,Conditional loop
+Java,Easy,Which loop is guaranteed to execute at least once?,do-while,while,for,foreach,do-while,Condition checked after execution
+Java,Easy,Which keyword exits a loop?,break,continue,stop,exit,break,Terminates loop
+Java,Easy,Which keyword skips current iteration?,continue,break,return,stop,continue,Moves to next iteration
+Java,Easy,Which keyword returns value from method?,return,break,continue,yield,return,Method return statement 
+Java,Easy,Which class is the parent of all classes in Java?,Object,String,Class,System,Object,Root class of Java hierarchy
+Java,Easy,Which package is imported automatically?,java.lang,java.util,java.io,java.net,java.lang,Default imported package
+Java,Easy,What is used to print output in Java?,System.out.println(),print(),echo(),cout,System.out.println(),Standard output statement
+Java,Easy,Which keyword refers to current object?,this,self,current,super,this,Reference to current object
+Java,Easy,Which keyword refers to parent class?,super,parent,base,this,super,Reference to superclass
+Java,Easy,What is constructor used for?,Initialize objects,Delete objects,Print output,Create methods,Initialize objects,Runs when object is created
+Java,Easy,What is the name of a constructor?,Same as class name,Any name,main,init,Same as class name,Constructor rule
+Java,Easy,Can constructors have return type?,No,Yes,Only int,Only void,No,Constructors never return values
+Java,Easy,Which operator creates an object?,new,+,*,&,new,Object creation operator
+Java,Easy,What is method overloading?,Same method name different parameters,Same method twice,Different classes same method,Method inheritance,Same method name different parameters,Compile-time polymorphism
+Java,Easy,What is method overriding?,Redefining inherited method,Deleting method,Calling method twice,Overloading method,Redefining inherited method,Runtime polymorphism
+Java,Easy,Which keyword prevents inheritance?,final,static,const,private,final,Final class cannot be inherited
+Java,Easy,Which keyword is used for constants?,final,const,static,constant,final,Creates constant values
+Java,Easy,What is an array?,Collection of same type elements,Method,Object,Package,Collection of same type elements,Stores multiple values
+Java,Easy,What is array indexing start value?,0,1,-1,2,0,Arrays start at index 0
+Java,Easy,Which exception occurs when array index exceeds limit?,ArrayIndexOutOfBoundsException,NullPointerException,IOException,ArithmeticException,ArrayIndexOutOfBoundsException,Invalid array access
+Java,Easy,Which keyword handles exceptions?,catch,try,throw,finally,catch,Catches exceptions
+Java,Easy,Which block always executes?,finally,try,catch,throw,finally,Used for cleanup
+Java,Easy,Which keyword throws an exception?,throw,catch,finally,error,throw,Used to raise exceptions
+Java,Easy,Which keyword starts exception handling?,try,catch,throw,final,try,Beginning of exception handling
+Java,Easy,Which collection stores unique elements?,Set,List,Array,Queue,Set,No duplicates allowed
+Java,Easy,Which collection maintains insertion order?,List,Set,Map,Tree,List,Ordered collection
+Java,Easy,Which collection stores key-value pairs?,Map,Set,List,Queue,Map,Associative collection
+Java,Easy,What is String in Java?,Class,Primitive type,Method,Package,Class,String is an object
+Java,Easy,Are Strings immutable in Java?,Yes,No,Sometimes,Only arrays are immutable,Yes,String objects cannot be changed 
+
+
+Java,Medium,What is Encapsulation?,Wrapping data and methods together,Inheritance of classes,Multiple objects,Method calling,Wrapping data and methods together,One of OOP principles
+Java,Medium,What is Inheritance?,Acquiring properties of another class,Hiding data,Creating objects,Method overloading,Acquiring properties of another class,Code reusability
+Java,Medium,What is Polymorphism?,One interface multiple forms,Data hiding,Object creation,Class loading,One interface multiple forms,Important OOP concept
+Java,Medium,What is Abstraction?,Hiding implementation details,Creating objects,Method calling,Inheritance,Hiding implementation details,Shows essential features only
+Java,Medium,Which access modifier is most restrictive?,private,protected,public,default,private,Accessible only within class
+Java,Medium,Which access modifier is accessible everywhere?,public,private,protected,default,public,No restrictions
+Java,Medium,What is an Interface?,Blueprint of methods,Class object,Package,Array,Blueprint of methods,Supports abstraction
+Java,Medium,Can Java support multiple inheritance through classes?,No,Yes,Only abstract classes,Only final classes,No,Supported via interfaces
+Java,Medium,What is an abstract class?,Class with abstract methods,Final class,Static class,Private class,Class with abstract methods,Cannot be fully instantiated
+Java,Medium,Can abstract classes have constructors?,Yes,No,Only private,Only public,Yes,Used during object creation
+Java,Medium,What is Runtime Polymorphism?,Method Overriding,Method Overloading,Inheritance,Abstraction,Method Overriding,Decided at runtime
+Java,Medium,What is Compile-time Polymorphism?,Method Overloading,Method Overriding,Inheritance,Encapsulation,Method Overloading,Resolved by compiler
+Java,Medium,What is the default value of int?,0,1,null,-1,0,Default primitive value
+Java,Medium,What is the default value of reference variables?,null,0,false,empty,null,No object assigned
+Java,Medium,What is a package?,Group of related classes,Collection object,Array type,Method block,Group of related classes,Used for organization
+Java,Medium,Which package contains ArrayList?,java.util,java.lang,java.io,java.net,java.util,Collections framework
+Java,Medium,What is ArrayList?,Resizable array,List interface,Queue,Map,Resizable array,Dynamic collection
+Java,Medium,What is LinkedList?,Doubly linked list implementation,Array implementation,Tree structure,Hash structure,Doubly linked list implementation,Part of Collections Framework
+Java,Medium,What is HashMap?,Key-value collection,List collection,Queue collection,Set collection,Key-value collection,Stores mappings
+Java,Medium,Can HashMap store duplicate keys?,No,Yes,Only integers,Only strings,No,Keys must be unique
+Java,Medium,Can HashMap store duplicate values?,Yes,No,Sometimes,Never,Yes,Only keys are unique
+Java,Medium,What is HashSet?,Collection of unique elements,List with duplicates,Queue structure,Map collection,Collection of unique elements,No duplicate values
+Java,Medium,What is Iterator used for?,Traversing collections,Sorting arrays,Creating objects,Loading classes,Traversing collections,Iterates through elements
+Java,Medium,What is Exception Handling?,Managing runtime errors,Sorting data,Memory allocation,Object creation,Managing runtime errors,Improves reliability
+Java,Medium,Which exception is unchecked?,NullPointerException,IOException,SQLException,FileNotFoundException,NullPointerException,Occurs at runtime  
+Java,Medium,What is the parent class of all exceptions?,Throwable,Exception,Error,Object,Throwable,Root of exception hierarchy
+Java,Medium,Which block is used to handle exceptions?,catch,try,finally,throw,catch,Handles thrown exceptions
+Java,Medium,What is a checked exception?,Checked at compile time,Checked at runtime,Ignored by compiler,Logic error,Checked at compile time,Must be handled or declared
+Java,Medium,Which keyword declares exceptions in method signature?,throws,throw,catch,finally,throws,Exception declaration
+Java,Medium,What is multithreading?,Executing multiple threads concurrently,Multiple classes,Multiple objects,Multiple methods,Executing multiple threads concurrently,Improves performance
+Java,Medium,Which class is used to create threads?,Thread,Object,Runnable,System,Thread,Basic thread class
+Java,Medium,Which method starts a thread?,start(),run(),execute(),begin(),start(),Creates new thread execution
+Java,Medium,What is synchronization?,Controlling thread access to resources,Sorting threads,Deleting threads,Creating threads,Controlling thread access to resources,Prevents race conditions
+Java,Medium,What is a race condition?,Multiple threads access shared data simultaneously,Thread deletion,Thread creation,Memory leak,Multiple threads access shared data simultaneously,Can cause inconsistent results
+Java,Medium,What is a daemon thread?,Background thread,Main thread,Child thread,Static thread,Background thread,Runs in background
+Java,Medium,What is JVM responsible for?,Executing bytecode,Writing code,Compiling code,Creating databases,Executing bytecode,Java runtime environment
+Java,Medium,What is JIT Compiler?,Just-In-Time Compiler,Java Internal Tool,Joint Interface Tool,Java Integration Technology,Just-In-Time Compiler,Improves JVM performance
+Java,Medium,What is Garbage Collection?,Automatic memory management,Data backup,Code optimization,Class loading,Automatic memory management,Frees unused memory
+Java,Medium,Which method requests garbage collection?,System.gc(),gc(),collect(),free(),System.gc(),Suggests garbage collection
+Java,Medium,What is Method Hiding?,Static method redefinition,Method overriding,Method overloading,Encapsulation,Static method redefinition,Occurs with static methods
+Java,Medium,What is Covariant Return Type?,Overridden method returns subclass type,Returns multiple values,Returns interface only,Returns primitive only,Overridden method returns subclass type,Java feature
+Java,Medium,What is Wrapper Class for int?,Integer,Double,Float,Long,Integer,Object representation of int
+Java,Medium,What is Autoboxing?,Primitive to Wrapper conversion,Wrapper to Primitive conversion,Object creation,Memory allocation,Primitive to Wrapper conversion,Automatic conversion
+Java,Medium,What is Unboxing?,Wrapper to Primitive conversion,Primitive to Wrapper conversion,Object deletion,Class conversion,Wrapper to Primitive conversion,Automatic extraction
+Java,Medium,Which interface supports lambda expressions?,Functional Interface,Runnable Interface,Serializable Interface,Marker Interface,Functional Interface,Contains one abstract method
+Java,Medium,What is Lambda Expression?,Anonymous function,Object creation,Class declaration,Exception handling,Anonymous function,Introduced in Java 8
+Java,Medium,Which package contains Stream API?,java.util.stream,java.io,java.net,java.lang,java.util.stream,Functional-style processing
+Java,Medium,What is Stream API used for?,Processing collections efficiently,Creating threads,Handling exceptions,Loading classes,Processing collections efficiently,Java 8 feature
+Java,Medium,What is Optional class used for?,Avoiding NullPointerException,Thread handling,Sorting data,Creating arrays,Avoiding NullPointerException,Represents optional values
+Java,Medium,What is Method Reference?,Reference to existing method,Reference to class,Object reference,Package reference,Reference to existing method,Simplifies lambda expressions 
+
+
+Java,Hard,What is Reflection in Java?,Inspect and modify classes at runtime,Compile code faster,Manage memory,Handle exceptions,Inspect and modify classes at runtime,Provided by java.lang.reflect package
+Java,Hard,Which class provides reflection functionality?,Class,Object,Method,Package,Class,Entry point for reflection
+Java,Hard,What is Serialization?,Converting object to byte stream,Compiling code,Loading classes,Creating threads,Converting object to byte stream,Used for persistence and networking
+Java,Hard,Which interface enables serialization?,Serializable,Runnable,Cloneable,Comparable,Serializable,Marker interface
+Java,Hard,What is Deserialization?,Converting byte stream back to object,Object deletion,Class loading,Memory cleanup,Converting byte stream back to object,Reverse of serialization
+Java,Hard,What is the purpose of transient keyword?,Exclude field from serialization,Make variable constant,Create thread,Hide variable,Exclude field from serialization,Field not saved during serialization
+Java,Hard,What is the purpose of volatile keyword?,Ensure variable visibility across threads,Make variable constant,Increase memory,Prevent inheritance,Ensure variable visibility across threads,Used in multithreading
+Java,Hard,What is a Deadlock?,Threads waiting indefinitely for each other,Thread creation,Garbage collection,Class loading,Threads waiting indefinitely for each other,Concurrency problem
+Java,Hard,Which keyword provides mutual exclusion?,synchronized,volatile,transient,final,synchronized,Only one thread accesses resource
+Java,Hard,What is Thread Pool?,Collection of reusable threads,Group of classes,Set of objects,Memory pool,Collection of reusable threads,Improves performance
+Java,Hard,Which package contains Executor Framework?,java.util.concurrent,java.lang,java.io,java.net,java.util.concurrent,Thread management utilities
+Java,Hard,What is Callable interface?,Task that returns result,Runnable task only,Thread class,Exception handler,Task that returns result,Can throw exceptions
+Java,Hard,What does Future represent?,Result of asynchronous computation,Thread object,Class object,Memory reference,Result of asynchronous computation,Used with ExecutorService
+Java,Hard,What is Immutable Object?,Object whose state cannot change,Object without methods,Object without constructor,Object without fields,Object whose state cannot change,String is immutable
+Java,Hard,Why is String immutable?,Security and performance,Easy syntax,Less memory only,Faster compilation,Security and performance,Common interview question
+Java,Hard,What is Singleton Design Pattern?,One instance of class,Multiple instances,Abstract class,Utility class,One instance of class,Restricts object creation
+Java,Hard,What is Factory Pattern?,Creates objects without exposing creation logic,Handles exceptions,Creates threads,Manages memory,Creates objects without exposing creation logic,Creational design pattern
+Java,Hard,What is Dependency Injection?,Providing dependencies externally,Object deletion,Class loading,Method overriding,Providing dependencies externally,Improves modularity
+Java,Hard,What is Functional Interface?,Interface with one abstract method,Interface with many methods,Empty interface,Abstract class,Interface with one abstract method,Used with lambda expressions
+Java,Hard,Which annotation marks Functional Interface?,@FunctionalInterface,@Override,@Deprecated,@SafeVarargs,@FunctionalInterface,Compiler validation
+Java,Hard,What is Stream API?,Functional data processing API,Thread API,Database API,Reflection API,Functional data processing API,Introduced in Java 8
+Java,Hard,What is Parallel Stream?,Processes data concurrently,Creates threads manually,Serial execution,Database processing,Processes data concurrently,Uses ForkJoin framework
+Java,Hard,What is ForkJoin Framework?,Framework for parallel processing,Exception framework,Reflection framework,Collection framework,Framework for parallel processing,Divide-and-conquer tasks
+Java,Hard,What is Generics in Java?,Type-safe parameterized code,Thread handling,Object serialization,Exception handling,Type-safe parameterized code,Introduced in Java 5
+Java,Hard,What is Type Erasure?,Removal of generic type information at runtime,Deleting objects,Removing classes,Memory cleanup,Removal of generic type information at runtime,How generics are implemented 
+Java,Hard,What is the purpose of Comparable interface?,Natural ordering of objects,Thread synchronization,Object serialization,Memory management,Natural ordering of objects,Defines compareTo() method
+Java,Hard,What is the purpose of Comparator interface?,Custom object sorting,Thread creation,Exception handling,Reflection,Custom object sorting,Defines compare() method
+Java,Hard,What is ConcurrentHashMap?,Thread-safe HashMap,Sorted Map,List implementation,Queue implementation,Thread-safe HashMap,Supports concurrent access
+Java,Hard,What is CopyOnWriteArrayList?,Thread-safe List using copy-on-write,Immutable List,Sorted List,Linked List,Thread-safe List using copy-on-write,Useful for read-heavy operations
+Java,Hard,What is a Marker Interface?,Interface with no methods,Interface with one method,Abstract class,Utility class,Interface with no methods,Example Serializable
+Java,Hard,Which interface is a Marker Interface?,Cloneable,Runnable,Callable,Comparable,Cloneable,Contains no methods
+Java,Hard,What is Cloning in Java?,Creating object copy,Deleting object,Moving object,Serializing object,Creating object copy,Uses clone() method
+Java,Hard,Which interface supports cloning?,Cloneable,Serializable,Runnable,Callable,Cloneable,Required for clone()
+Java,Hard,What is Java Memory Model?,Defines thread interaction with memory,Garbage collector,Class loader,JVM compiler,Defines thread interaction with memory,Important in concurrency
+Java,Hard,What is Heap Memory?,Stores objects and instance variables,Stores local variables,Stores methods only,Stores bytecode,Stores objects and instance variables,Managed by garbage collector
+Java,Hard,What is Stack Memory?,Stores method calls and local variables,Stores objects,Stores classes,Stores packages,Stores method calls and local variables,Used during execution
+Java,Hard,What causes StackOverflowError?,Deep or infinite recursion,Memory leak,Class loading failure,Thread synchronization,Deep or infinite recursion,Stack space exhausted
+Java,Hard,What causes OutOfMemoryError?,Heap memory exhaustion,Syntax error,Class not found,Null reference,Heap memory exhaustion,JVM cannot allocate memory
+Java,Hard,What is ClassLoader?,Loads classes into JVM,Creates objects,Compiles code,Handles exceptions,Loads classes into JVM,Part of JVM architecture
+Java,Hard,Which ClassLoader loads core Java classes?,Bootstrap ClassLoader,Extension ClassLoader,System ClassLoader,Custom ClassLoader,Bootstrap ClassLoader,Loads java.lang classes
+Java,Hard,What is JVM Bytecode?,Platform-independent intermediate code,Machine code,Source code,Assembly code,Platform-independent intermediate code,Executed by JVM
+Java,Hard,What is JNI?,Java Native Interface,Java Network Interface,Java Naming Interface,Java Node Interface,Java Native Interface,Connects Java with native code
+Java,Hard,What is Annotation in Java?,Metadata for code,Variable type,Loop structure,Collection type,Metadata for code,Provides additional information
+Java,Hard,Which annotation indicates method overriding?,@Override,@Deprecated,@FunctionalInterface,@SuppressWarnings,@Override,Compiler checks overriding
+Java,Hard,What does @Deprecated indicate?,Element should not be used,Object is immutable,Method is static,Class is abstract,Element should not be used,Marks obsolete code
+Java,Hard,What is Optional used for?,Handling absent values safely,Thread creation,Object cloning,Exception handling,Handling absent values safely,Reduces null checks
+Java,Hard,What is Record in Java?,Immutable data carrier class,Thread class,Collection class,Abstract class,Immutable data carrier class,Introduced in Java 16
+Java,Hard,What is Sealed Class?,Restricts inheritance,Immutable class,Abstract class,Utility class,Restricts inheritance,Introduced in Java 17
+Java,Hard,What is Pattern Matching in Java?,Simplifies type checking,Thread synchronization,Object serialization,Memory optimization,Simplifies type checking,Modern Java feature
+Java,Hard,What is Virtual Thread?,Lightweight thread introduced by Project Loom,System thread only,Daemon thread,Native thread,Lightweight thread introduced by Project Loom,Supports massive concurrency

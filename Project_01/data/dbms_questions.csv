@@ -1,0 +1,155 @@
+subject,difficulty,question,option_a,option_b,option_c,option_d,answer,explanation
+DBMS,Easy,What does DBMS stand for?,Database Management System,Data Backup Management System,Database Machine System,Data Management Server,Database Management System,DBMS manages databases
+DBMS,Easy,Which language is commonly used with DBMS?,Java,SQL,C++,Python,SQL,SQL is the standard database language
+DBMS,Easy,What is a database?,Collection of related data,Operating System,Programming Language,Compiler,Collection of related data,A database stores organized data
+DBMS,Easy,Which command retrieves data?,UPDATE,DELETE,SELECT,INSERT,SELECT,SELECT fetches records
+DBMS,Easy,Which command inserts data?,ALTER,INSERT,DROP,SELECT,INSERT,INSERT adds rows
+DBMS,Easy,What is a row in DBMS called?,Attribute,Tuple,Relation,Schema,Tuple,A row is called a tuple
+DBMS,Easy,What is a column called?,Attribute,Tuple,Database,View,Attribute,A column is an attribute
+DBMS,Easy,Which key uniquely identifies a row?,Foreign Key,Primary Key,Candidate Key,Alternate Key,Primary Key,Primary key uniquely identifies records
+DBMS,Easy,Which key connects two tables?,Primary Key,Composite Key,Foreign Key,Super Key,Foreign Key,Foreign key creates relationships
+DBMS,Easy,Which command deletes all rows?,DELETE,DROP,SELECT,CREATE,DELETE,DELETE removes records
+DBMS,Easy,Which command changes table structure?,ALTER,SELECT,DELETE,UPDATE,ALTER,ALTER modifies schema
+DBMS,Easy,What is SQL?,Structured Query Language,System Query Logic,Simple Query Language,Standard Query Logic,Structured Query Language,SQL is used for database operations
+DBMS,Easy,Which SQL clause filters rows?,ORDER BY,GROUP BY,WHERE,HAVING,WHERE,WHERE filters records
+DBMS,Easy,Which clause sorts records?,ORDER BY,HAVING,GROUP BY,WHERE,ORDER BY,ORDER BY sorts data
+DBMS,Easy,What is normalization?,Reducing redundancy,Increasing redundancy,Deleting data,Creating backups,Reducing redundancy,Normalization improves database design
+DBMS,Easy,Which normal form removes repeating groups?,1NF,2NF,3NF,BCNF,1NF,1NF removes repeating groups
+DBMS,Easy,What is a relation?,Table,Row,Column,Database,Table,Relation means table
+DBMS,Easy,What is DBMS used for?,Managing Data,Playing Games,Browsing Internet,Compiling Code,Managing Data,DBMS organizes and manages data
+DBMS,Easy,Which SQL command creates a table?,CREATE,ALTER,UPDATE,DROP,CREATE,CREATE makes new tables
+DBMS,Easy,Which command removes a table?,DROP,DELETE,TRUNCATE,REMOVE,DROP,DROP removes table completely
+DBMS,Easy,What is a schema?,Database structure,Database row,Database key,Database index,Database structure,Schema defines organization
+DBMS,Easy,What is a view?,Virtual table,Physical table,Index,Constraint,Virtual table,View stores query results virtually
+DBMS,Easy,What is redundancy?,Duplicate data,Missing data,Sorted data,Encrypted data,Duplicate data,Redundancy wastes storage
+DBMS,Easy,What is an entity?,Real-world object,Database file,Query,Transaction,Real-world object,Entity represents an object
+DBMS,Easy,What is ER model used for?,Database design,Programming,Networking,Security,Database design,ER model models data
+DBMS,Easy,What does DDL stand for?,Data Definition Language,Data Display Language,Database Definition Logic,Data Dynamic Language,Data Definition Language,DDL defines structure
+DBMS,Easy,What does DML stand for?,Data Manipulation Language,Data Management Logic,Database Manipulation Logic,Data Mapping Language,Data Manipulation Language,DML manipulates records
+DBMS,Easy,Which command updates records?,UPDATE,SELECT,INSERT,DROP,UPDATE,UPDATE modifies existing data
+DBMS,Easy,What is a candidate key?,Possible primary key,Foreign key,Composite key,Duplicate key,Possible primary key,Candidate keys uniquely identify rows
+DBMS,Easy,What is a super key?,Set of attributes identifying rows,Foreign key,Normal form,Index,Set of attributes identifying rows,Super key uniquely identifies tuples
+DBMS,Easy,What is a composite key?,Key with multiple columns,Primary key,Foreign key,Index,Key with multiple columns,Composite key uses multiple attributes
+DBMS,Easy,Which SQL command removes table data but keeps structure?,TRUNCATE,DROP,DELETE,ALTER,TRUNCATE,Structure remains intact
+DBMS,Easy,What is a transaction?,Logical unit of work,Table,Column,Index,Logical unit of work,Transaction groups operations
+DBMS,Easy,Which property ensures all-or-none execution?,Atomicity,Consistency,Isolation,Durability,Atomicity,Atomicity ensures complete execution
+DBMS,Easy,What is consistency?,Valid state maintenance,Fast retrieval,Data deletion,Backup process,Valid state maintenance,Consistency preserves integrity
+DBMS,Easy,What is isolation?,Independent transaction execution,Data sharing,Backup,Recovery,Independent transaction execution,Transactions do not interfere
+DBMS,Easy,What is durability?,Permanent committed data,Temporary storage,Indexing,Locking,Permanent committed data,Committed data survives failures
+DBMS,Easy,What is indexing used for?,Faster retrieval,Deleting data,Normalization,Security,Faster retrieval,Indexes speed up search
+DBMS,Easy,Which key cannot contain NULL?,Primary Key,Foreign Key,Composite Key,Alternate Key,Primary Key,Primary key must be unique and not null
+DBMS,Easy,What is cardinality?,Number of relationships,Rows count,Column count,Table count,Number of relationships,Cardinality defines relationship count
+DBMS,Easy,What is degree of a table?,Number of columns,Rows,Tables,Indexes,Number of columns,Degree equals attributes count
+DBMS,Easy,What is tuple count called?,Cardinality,Degree,Schema,View,Cardinality,Cardinality equals row count
+DBMS,Easy,Which command removes selected rows?,DELETE,TRUNCATE,DROP,ALTER,DELETE,DELETE can use conditions
+DBMS,Easy,What is metadata?,Data about data,Duplicate data,Deleted data,Encrypted data,Data about data,Metadata describes data
+DBMS,Easy,What is a query?,Request for data,Table,Database,Transaction,Request for data,Queries retrieve information
+DBMS,Easy,What is a constraint?,Rule on data,Table,Index,Database,Rule on data,Constraints maintain accuracy
+DBMS,Easy,Which constraint prevents duplicate values?,UNIQUE,NOT NULL,CHECK,DEFAULT,UNIQUE,UNIQUE ensures distinct values
+DBMS,Easy,Which constraint prevents null values?,NOT NULL,CHECK,DEFAULT,UNIQUE,NOT NULL,Column must contain a value
+DBMS,Easy,Which command displays table structure?,DESC,SHOW,VIEW,STRUCT,DESC,DESC describes table structure
+DBMS,Easy,Which database model uses tables?,Relational Model,Network Model,Hierarchical Model,Object Model,Relational Model,Relational databases use tables  
+
+
+DBMS,Medium,Which SQL clause is used after GROUP BY to filter groups?,HAVING,WHERE,ORDER BY,SELECT,HAVING,HAVING filters grouped records
+DBMS,Medium,Which join returns only matching records from both tables?,INNER JOIN,LEFT JOIN,RIGHT JOIN,FULL JOIN,INNER JOIN,Returns common rows
+DBMS,Medium,Which normal form removes partial dependency?,2NF,1NF,3NF,BCNF,2NF,2NF removes partial dependency
+DBMS,Medium,Which normal form removes transitive dependency?,3NF,2NF,1NF,BCNF,3NF,3NF removes transitive dependency
+DBMS,Medium,What is a view?,Virtual Table,Physical Table,Index,Constraint,Virtual Table,View stores query result
+DBMS,Medium,What is a deadlock?,Transactions waiting forever,Database crash,Data loss,Index corruption,Transactions waiting forever,Circular resource waiting
+DBMS,Medium,Which command removes all rows but keeps structure?,TRUNCATE,DROP,DELETE,ALTER,TRUNCATE,Table structure remains
+DBMS,Medium,Which key is chosen from candidate keys?,Primary Key,Foreign Key,Composite Key,Super Key,Primary Key,Selected candidate key
+DBMS,Medium,Which SQL function counts rows?,COUNT(),SUM(),AVG(),MAX(),COUNT(),Returns row count
+DBMS,Medium,Which operator combines query results?,UNION,JOIN,MERGE,GROUP,UNION,Combines result sets
+DBMS,Medium,What is denormalization?,Adding redundancy,Removing redundancy,Deleting tables,Creating indexes,Adding redundancy,Used for performance
+DBMS,Medium,What does ACID stand for?,Atomicity Consistency Isolation Durability,Access Control Integrity Data,Atomic Control Isolation Data,Automatic Consistency Integrity Durability,Atomicity Consistency Isolation Durability,Transaction properties
+DBMS,Medium,Which SQL clause sorts records?,ORDER BY,GROUP BY,HAVING,WHERE,ORDER BY,Sorts output
+DBMS,Medium,What is indexing used for?,Fast retrieval,Data backup,Normalization,Encryption,Fast retrieval,Improves search performance
+DBMS,Medium,Which join returns all rows from left table?,LEFT JOIN,INNER JOIN,RIGHT JOIN,FULL JOIN,LEFT JOIN,Includes unmatched left rows
+DBMS,Medium,What is a composite key?,Multiple columns key,Primary key,Foreign key,Unique key,Multiple columns key,Combination of attributes
+DBMS,Medium,What is cardinality?,Uniqueness of values,Rows deleted,Columns count,Table count,Uniqueness of values,Measures uniqueness
+DBMS,Medium,What is rollback?,Undo transaction,Commit transaction,Delete table,Backup database,Undo transaction,Reverses changes
+DBMS,Medium,Which command permanently saves transaction?,COMMIT,ROLLBACK,SAVEPOINT,DELETE,COMMIT,Saves transaction
+DBMS,Medium,What is a savepoint?,Transaction checkpoint,Table backup,Index file,Database copy,Transaction checkpoint,Partial rollback point
+DBMS,Medium,Which SQL clause groups records?,GROUP BY,ORDER BY,HAVING,WHERE,GROUP BY,Groups rows
+DBMS,Medium,Which join returns all rows from right table?,RIGHT JOIN,INNER JOIN,LEFT JOIN,FULL JOIN,RIGHT JOIN,Includes unmatched right rows
+DBMS,Medium,What is a candidate key?,Potential primary key,Foreign key,Index key,Duplicate key,Potential primary key,Can uniquely identify rows
+DBMS,Medium,What is a foreign key used for?,Relationship between tables,Sorting data,Indexing,Normalization,Relationship between tables,Links tables
+DBMS,Medium,What is a trigger?,Automatic action,Backup file,View table,Index structure,Automatic action,Executes on events 
+DBMS,Medium,Which normal form removes multivalued dependencies?,4NF,3NF,BCNF,5NF,4NF,4NF removes multivalued dependencies
+DBMS,Medium,Which normal form removes join dependencies?,5NF,4NF,BCNF,3NF,5NF,5NF removes join dependencies
+DBMS,Medium,What is a database transaction?,Logical unit of work,Database backup,Table structure,Index file,Logical unit of work,Transaction groups operations
+DBMS,Medium,Which isolation level allows dirty reads?,Read Uncommitted,Read Committed,Repeatable Read,Serializable,Read Uncommitted,Lowest isolation level
+DBMS,Medium,Which isolation level prevents dirty reads?,Read Committed,Read Uncommitted,Serializable,Repeatable Read,Read Committed,Prevents uncommitted data access
+DBMS,Medium,What is a clustered index?,Data stored in index order,Separate lookup table,Backup index,Virtual index,Data stored in index order,Rows follow index sequence
+DBMS,Medium,What is a non-clustered index?,Separate index structure,Data order index,Primary index,Unique index,Separate index structure,Points to data rows
+DBMS,Medium,Which SQL function returns highest value?,MAX(),MIN(),AVG(),COUNT(),MAX(),Returns maximum value
+DBMS,Medium,Which SQL function returns lowest value?,MIN(),MAX(),AVG(),COUNT(),MIN(),Returns minimum value
+DBMS,Medium,Which SQL function returns average value?,AVG(),SUM(),COUNT(),MAX(),AVG(),Returns average
+DBMS,Medium,What is referential integrity?,Valid table relationships,Data backup,Data sorting,Data compression,Valid table relationships,Ensures foreign key consistency
+DBMS,Medium,What is data independence?,Changing schema without affecting applications,Data backup,Data security,Data deletion,Changing schema without affecting applications,Separates storage and application
+DBMS,Medium,What is logical data independence?,Change logical schema,Change hardware,Change OS,Change database name,Change logical schema,No effect on applications
+DBMS,Medium,What is physical data independence?,Change storage details,Change tables,Change columns,Change constraints,Change storage details,No effect on logical schema
+DBMS,Medium,What is a subquery?,Query inside another query,Nested table,Index query,Backup query,Query inside another query,Used within SQL statements
+DBMS,Medium,What is an aggregate function?,Works on multiple rows,Creates tables,Deletes rows,Creates indexes,Works on multiple rows,Processes groups of values
+DBMS,Medium,Which command renames a table?,ALTER TABLE,UPDATE,MODIFY,RENAME COLUMN,ALTER TABLE,Used to rename objects
+DBMS,Medium,What is a schema diagram?,Database structure diagram,Network diagram,Backup diagram,OS diagram,Database structure diagram,Shows database design
+DBMS,Medium,What is data integrity?,Accuracy and consistency of data,Fast retrieval,Backup system,Normalization,Accuracy and consistency of data,Maintains correctness
+DBMS,Medium,Which join returns all records from both tables?,FULL OUTER JOIN,INNER JOIN,LEFT JOIN,RIGHT JOIN,FULL OUTER JOIN,Combines all rows
+DBMS,Medium,What is a stored procedure?,Precompiled SQL code,Backup script,Index file,Data model,Precompiled SQL code,Stored in database
+DBMS,Medium,What is a cursor?,Pointer to query result,Primary key,Foreign key,Index,Pointer to query result,Processes rows individually
+DBMS,Medium,What is a sequence?,Number generator,Index structure,Constraint,View,Number generator,Generates unique values
+DBMS,Medium,What is a synonym?,Alternative object name,Duplicate table,Backup table,Virtual table,Alternative object name,Alias for database object
+DBMS,Medium,What is database security?,Protection from unauthorized access,Backup process,Indexing,Normalization,Protection from unauthorized access,Controls access 
+
+
+DBMS,Hard,What is a phantom read?,Rows appear/disappear during transaction,Dirty read,Lost update,Deadlock,Rows appear/disappear during transaction,Occurs due to concurrent inserts/deletes
+DBMS,Hard,What is a dirty read?,Reading uncommitted data,Reading duplicate data,Reading backup data,Reading metadata,Reading uncommitted data,Can lead to inconsistency
+DBMS,Hard,What is a non-repeatable read?,Same query returns different results,Duplicate rows,Deadlock,Missing rows,Same query returns different results,Data changed by another transaction
+DBMS,Hard,Which isolation level prevents phantom reads?,Serializable,Repeatable Read,Read Committed,Read Uncommitted,Serializable,Highest isolation level
+DBMS,Hard,What is MVCC?,Multi Version Concurrency Control,Multiple Variable Control,Memory Version Cache Control,Managed Virtual Control Center,Multi Version Concurrency Control,Allows concurrent access
+DBMS,Hard,What is a deadlock prevention technique?,Resource Ordering,Normalization,Indexing,Partitioning,Resource Ordering,Prevents circular wait
+DBMS,Hard,What is a wait-for graph used for?,Deadlock detection,Backup recovery,Index creation,Query optimization,Deadlock detection,Detects cycles
+DBMS,Hard,What is write-ahead logging?,Log before database write,Log after commit,Backup logging,Index logging,Log before database write,Supports recovery
+DBMS,Hard,What is checkpointing?,Saving database state,Deleting logs,Index rebuilding,Normalization,Saving database state,Improves recovery speed
+DBMS,Hard,What is a cascading rollback?,Rollback affecting dependent transactions,Rollback table,Delete database,Index reset,Rollback affecting dependent transactions,Occurs due to dependencies
+DBMS,Hard,What is two-phase locking?,Growing and shrinking lock phases,Double authentication,Two indexes,Dual backups,Growing and shrinking lock phases,Ensures serializability
+DBMS,Hard,What is strict two-phase locking?,Locks held until commit,Double lock release,Lock twice,Unlock before commit,Locks held until commit,Prevents cascading rollback
+DBMS,Hard,What is a distributed database?,Database across multiple locations,Cloud backup,Virtual table,Single server database,Database across multiple locations,Data stored at different sites
+DBMS,Hard,What is horizontal fragmentation?,Dividing rows,Dividing columns,Dividing indexes,Dividing schemas,Dividing rows,Rows distributed across sites
+DBMS,Hard,What is vertical fragmentation?,Dividing columns,Dividing rows,Dividing tables,Dividing keys,Dividing columns,Columns distributed separately
+DBMS,Hard,What is replication?,Copying data across servers,Deleting duplicates,Creating views,Compressing data,Copying data across servers,Improves availability
+DBMS,Hard,What is sharding?,Horizontal partitioning,Vertical partitioning,Indexing,Normalization,Horizontal partitioning,Distributes data
+DBMS,Hard,What is query optimization?,Finding efficient execution plan,Deleting duplicates,Creating indexes,Compressing tables,Finding efficient execution plan,Improves performance
+DBMS,Hard,What is a cost-based optimizer?,Uses cost estimates,Uses random plans,Uses indexes only,Uses caching only,Uses cost estimates,Chooses best execution plan
+DBMS,Hard,Which algorithm is commonly used for join optimization?,Dynamic Programming,DFS,BFS,Dijkstra,Dynamic Programming,Optimizes join order
+DBMS,Hard,What is a materialized view?,Stored query result,Virtual table,Index structure,Constraint,Stored query result,Improves query performance
+DBMS,Hard,What is database federation?,Integrating multiple databases,Creating indexes,Partitioning tables,Compressing records,Integrating multiple databases,Provides unified access
+DBMS,Hard,What is denormalization primarily used for?,Performance improvement,Reducing redundancy,Increasing security,Reducing storage,Performance improvement,Trades redundancy for speed
+DBMS,Hard,What is a bitmap index best suited for?,Low-cardinality columns,High-cardinality columns,Primary keys,Foreign keys,Low-cardinality columns,Efficient for few distinct values
+DBMS,Hard,What is a hash index optimized for?,Exact match queries,Range queries,Sorting,Joins,Exact match queries,Uses hash function for lookup  
+DBMS,Hard,What is a B+ Tree index?,Balanced tree index structure,Hash table,Linked list,Bitmap table,Balanced tree index structure,Most common DBMS index
+DBMS,Hard,What is transaction starvation?,Transaction waits indefinitely,Transaction rollback,Deadlock,Data corruption,Transaction waits indefinitely,Occurs due to resource allocation
+DBMS,Hard,What is optimistic concurrency control?,Assumes conflicts are rare,Uses locks heavily,Prevents transactions,Deletes conflicts,Assumes conflicts are rare,Validation occurs before commit
+DBMS,Hard,What is pessimistic concurrency control?,Locks resources before access,Assumes no conflicts,Uses snapshots,Uses replication,Locks resources before access,Prevents conflicts early
+DBMS,Hard,What is a surrogate key?,Artificial generated key,Foreign key,Composite key,Natural key,Artificial generated key,Often auto-incremented
+DBMS,Hard,What is a natural key?,Real-world attribute key,Generated key,Foreign key,Index key,Real-world attribute key,Derived from actual data
+DBMS,Hard,What is a covering index?,Index containing all required columns,Primary index,Hash index,Unique index,Index containing all required columns,Reduces table access
+DBMS,Hard,What is index selectivity?,Uniqueness of indexed values,Index size,Number of tables,Query count,Uniqueness of indexed values,Higher selectivity improves performance
+DBMS,Hard,What is a star schema?,Fact table with dimension tables,Network schema,Hierarchical schema,Object schema,Fact table with dimension tables,Used in data warehousing
+DBMS,Hard,What is a snowflake schema?,Normalized dimension schema,Flat schema,Network schema,Hash schema,Normalized dimension schema,Extension of star schema
+DBMS,Hard,What is OLTP?,Online Transaction Processing,Online Table Processing,Offline Transaction Processing,Object Transaction Processing,Online Transaction Processing,Handles daily transactions
+DBMS,Hard,What is OLAP?,Online Analytical Processing,Online Application Processing,Object Analytical Processing,Offline Analytical Processing,Online Analytical Processing,Used for analytics
+DBMS,Hard,What is data warehousing?,Centralized analytical storage,Backup database,Indexing system,Normalization method,Centralized analytical storage,Supports business intelligence
+DBMS,Hard,What is ETL?,Extract Transform Load,Encode Transfer Load,Execute Transform Link,Extract Table Link,Extract Transform Load,Data integration process
+DBMS,Hard,What is a fact table?,Stores measurable data,Stores metadata,Stores indexes,Stores constraints,Stores measurable data,Central table in warehouse
+DBMS,Hard,What is a dimension table?,Stores descriptive attributes,Stores transactions,Stores indexes,Stores logs,Stores descriptive attributes,Provides context to facts
+DBMS,Hard,What is a data mart?,Subset of data warehouse,Backup database,Index repository,Schema diagram,Subset of data warehouse,Focused on specific department
+DBMS,Hard,What is CAP theorem?,Consistency Availability Partition Tolerance,Control Access Partition Theory,Consistency Access Protocol Tolerance,Cache Availability Processing Theory,Consistency Availability Partition Tolerance,Distributed systems theorem
+DBMS,Hard,What is eventual consistency?,Data becomes consistent over time,Immediate consistency,No consistency,Partial backup,Data becomes consistent over time,Common in distributed databases
+DBMS,Hard,What is a NoSQL database?,Non-relational database,SQL optimizer,Query language,Backup database,Non-relational database,Designed for scalability
+DBMS,Hard,What is database partitioning?,Splitting large tables,Creating indexes,Normalizing data,Creating views,Splitting large tables,Improves performance
+DBMS,Hard,What is range partitioning?,Partition based on value ranges,Random partitioning,Hash partitioning,List partitioning,Partition based on value ranges,Uses intervals
+DBMS,Hard,What is hash partitioning?,Partition using hash function,Range partitioning,List partitioning,Index partitioning,Partition using hash function,Even data distribution
+DBMS,Hard,What is list partitioning?,Partition using predefined values,Hash partitioning,Range partitioning,Index partitioning,Partition using predefined values,Groups specific values
+DBMS,Hard,What is a distributed transaction?,Transaction spanning multiple databases,Local transaction,Backup transaction,Index transaction,Transaction spanning multiple databases,Requires coordination

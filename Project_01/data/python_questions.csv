@@ -1,0 +1,155 @@
+subject,difficulty,question,option_a,option_b,option_c,option_d,answer,explanation
+Python,Easy,Who developed Python?,Guido van Rossum,Dennis Ritchie,James Gosling,Bjarne Stroustrup,Guido van Rossum,Creator of Python
+Python,Easy,In which year was Python released?,1991,1985,1995,2000,1991,First public release
+Python,Easy,Python is a ?,Programming Language,Database,Operating System,Compiler,Programming Language,High-level language
+Python,Easy,Which symbol is used for comments in Python?,#,//,/*,%,#,Single-line comment
+Python,Easy,Which keyword is used to define a function?,def,function,func,define,def,Function declaration
+Python,Easy,Which keyword is used to create a class?,class,Class,define,new,class,Class declaration
+Python,Easy,What is the correct file extension for Python files?,.py,.python,.pt,.pyt,.py,Python source file
+Python,Easy,Which function displays output?,print(),display(),echo(),show(),print(),Standard output function
+Python,Easy,Which function takes user input?,input(),scan(),read(),get(),input(),Reads input from user
+Python,Easy,Which data type stores integers?,int,float,str,bool,int,Stores whole numbers
+Python,Easy,Which data type stores decimal numbers?,float,int,str,list,float,Stores floating-point numbers
+Python,Easy,Which data type stores text?,str,int,float,bool,str,String data type
+Python,Easy,Which data type stores True or False?,bool,int,float,str,bool,Boolean type
+Python,Easy,What is the output type of input()?,str,int,float,bool,str,Returns string by default
+Python,Easy,Which operator is used for exponentiation?,**,^,%,//,**,Power operator
+Python,Easy,Which operator performs integer division?,//,/,% ,**,//,Returns integer quotient
+Python,Easy,What is a list?,Ordered mutable collection,Immutable collection,Function,Object,Ordered mutable collection,Can be modified
+Python,Easy,Which brackets define a list?,[],(),{},<>,[],List syntax
+Python,Easy,Which brackets define a tuple?,(),[],{},<>,(),Tuple syntax
+Python,Easy,Which brackets define a dictionary?,{},[],(),<>,{},Dictionary syntax
+Python,Easy,Which method adds an item to a list?,append(),add(),insertitem(),push(),append(),Adds element at end
+Python,Easy,Which keyword is used for conditional statements?,if,for,while,switch,if,Decision making
+Python,Easy,Which loop iterates over a sequence?,for,while,do-while,repeat,for,Sequence iteration
+Python,Easy,Which loop runs while condition is true?,while,for,loop,repeat,while,Conditional loop
+Python,Easy,Which keyword exits a loop?,break,continue,exit,stop,break,Terminates loop
+Python,Easy,Which keyword skips the current loop iteration?,continue,break,pass,skip,continue,Moves to next iteration
+Python,Easy,Which keyword does nothing and acts as a placeholder?,pass,break,continue,return,pass,Used for empty blocks
+Python,Easy,Which function returns the length of a list?,len(),length(),count(),size(),len(),Built-in function
+Python,Easy,Which method removes an item from a list?,remove(),delete(),discard(),erase(),remove(),Removes specified value
+Python,Easy,Which method removes the last item from a list?,pop(),remove(),delete(),clear(),pop(),Removes and returns last element
+Python,Easy,Which method sorts a list?,sort(),order(),arrange(),sortedlist(),sort(),Sorts list in place
+Python,Easy,Which function creates a range of numbers?,range(),list(),numbers(),sequence(),range(),Commonly used in loops
+Python,Easy,What is indexing in Python?,Accessing elements by position,Sorting elements,Deleting elements,Copying elements,Accessing elements by position,Starts at index 0
+Python,Easy,What is the first index of a list?,0,1,-1,2,0,Python uses zero-based indexing
+Python,Easy,What does len('Python') return?,6,5,7,8,6,String has 6 characters
+Python,Easy,Which operator checks equality?,==,=,!=,<=,==,Comparison operator
+Python,Easy,Which operator means not equal to?,!=,==,=,<>,!=,Comparison operator
+Python,Easy,What is the output of 5 % 2 ?,1,2,0,5,1,Remainder operator
+Python,Easy,Which keyword is used to define anonymous functions?,lambda,def,func,anonymous,lambda,Creates small functions
+Python,Easy,Which data structure stores key-value pairs?,dictionary,list,tuple,set,dictionary,Uses keys and values
+Python,Easy,How are dictionary keys accessed?,Using key name,Using index only,Using position,Using loop only,Using key name,Dictionary lookup
+Python,Easy,Which collection stores unique elements?,set,list,tuple,string,set,No duplicate values
+Python,Easy,Which method adds an element to a set?,add(),append(),insert(),push(),add(),Adds new element
+Python,Easy,What is a tuple?,Ordered immutable collection,Mutable collection,Dictionary,Function,Ordered immutable collection,Cannot be modified
+Python,Easy,Which keyword imports a module?,import,include,require,using,import,Loads external modules
+Python,Easy,Which module provides mathematical functions?,math,random,os,sys,math,Contains sqrt and more
+Python,Easy,Which module generates random numbers?,random,math,os,time,random,Random utilities
+Python,Easy,What does type() return?,Data type,Object value,Memory address,Function name,Data type,Checks variable type
+Python,Easy,Which function converts string to integer?,int(),str(),float(),bool(),int(),Type conversion
+Python,Easy,Which function converts integer to string?,str(),int(),float(),bool(),str(),Type conversion
+
+
+Python,Medium,What is List Comprehension?,Compact way to create lists,Sorting method,Loop type,Function call,Compact way to create lists,Reduces code length
+Python,Medium,Which keyword handles exceptions?,try,catch,error,handle,try,Starts exception handling block
+Python,Medium,Which block executes when an exception occurs?,except,finally,else,raise,except,Handles errors
+Python,Medium,Which block always executes?,finally,except,try,raise,finally,Runs regardless of exceptions
+Python,Medium,Which keyword raises an exception?,raise,throw,error,except,raise,Used to generate exceptions
+Python,Medium,What is a Module?,Python file containing code,Function,Object,Package,Python file containing code,Reusable code unit
+Python,Medium,What is a Package?,Collection of modules,Single module,Function library,Object,Collection of modules,Organizes related modules
+Python,Medium,Which module interacts with the operating system?,os,sys,math,random,os,Provides OS functions
+Python,Medium,Which module provides system-specific parameters?,sys,os,math,time,sys,Accesses interpreter variables
+Python,Medium,What is Recursion?,Function calling itself,Nested loop,Class inheritance,Exception handling,Function calling itself,Solves repetitive problems
+Python,Medium,What is the base case in recursion?,Condition that stops recursion,First function call,Loop condition,Return type,Condition that stops recursion,Prevents infinite recursion
+Python,Medium,What is a Lambda Function?,Anonymous function,Recursive function,Built-in function,Generator,Anonymous function,Defined using lambda keyword
+Python,Medium,Which function applies another function to all items?,map(),filter(),reduce(),apply(),map(),Returns mapped results
+Python,Medium,Which function filters elements based on a condition?,filter(),map(),reduce(),select(),filter(),Returns matching items
+Python,Medium,What is a Generator?,Function that yields values lazily,List type,Class method,Dictionary object,Function that yields values lazily,Saves memory
+Python,Medium,Which keyword is used in generators?,yield,return,generate,next,yield,Produces values one at a time
+Python,Medium,What is an Iterator?,Object that can be iterated,Object-oriented class,List type,Module,Object that can be iterated,Implements iteration protocol
+Python,Medium,Which function returns the next iterator value?,next(),iter(),yield(),step(),next(),Moves iterator forward
+Python,Medium,What is the purpose of iter()?,Create iterator,Create list,Create tuple,Create dictionary,Create iterator,Converts iterable to iterator
+Python,Medium,What is File Handling?,Reading and writing files,Memory allocation,Process management,Network programming,Reading and writing files,Used for data storage
+Python,Medium,Which mode opens a file for reading?,r,w,a,x,r,Default read mode
+Python,Medium,Which mode opens a file for writing?,w,r,a,x,w,Creates or overwrites file
+Python,Medium,Which mode appends data to a file?,a,w,r,x,a,Adds data at end
+Python,Medium,What does read() do?,Reads file content,Writes file content,Deletes file,Closes file,Reads file content,Returns data from file
+Python,Medium,What does close() do?,Closes file,Deletes file,Saves file,Reads file,Closes file,Releases file resources
+Python,Medium,What is Object-Oriented Programming (OOP)?,Programming using classes and objects,Database programming,Web programming,System programming,Programming using classes and objects,OOP organizes code into objects
+Python,Medium,What is a Class?,Blueprint for objects,Object instance,Function,Module,Blueprint for objects,Defines attributes and methods
+Python,Medium,What is an Object?,Instance of a class,Function,Module,Variable,Instance of a class,Created from a class
+Python,Medium,Which method is called automatically when an object is created?,__init__(),__start__(),__create__(),__newobject__(),__init__(),Constructor method
+Python,Medium,What is Inheritance?,Acquiring properties from another class,Creating functions,Handling files,Exception handling,Acquiring properties from another class,Promotes code reuse
+Python,Medium,What is Polymorphism?,One interface many forms,Multiple inheritance,Data hiding,Code duplication,One interface many forms,Allows flexible code
+Python,Medium,What is Encapsulation?,Wrapping data and methods together,Inheritance,Looping,File handling,Wrapping data and methods together,Provides data security
+Python,Medium,What is Abstraction?,Hiding implementation details,Showing all details,Looping,Debugging,Hiding implementation details,Simplifies complexity
+Python,Medium,Which function checks object type?,isinstance(),typecheck(),checktype(),typeof(),isinstance(),Returns True or False
+Python,Medium,What is Method Overriding?,Redefining parent method in child class,Defining multiple methods,Deleting methods,Creating methods,Redefining parent method in child class,Supports polymorphism
+Python,Medium,What is Multiple Inheritance?,Class inherits from multiple classes,Multiple objects,Multiple functions,Multiple modules,Class inherits from multiple classes,Supported in Python
+Python,Medium,What is a Decorator?,Function modifying another function,Class type,Loop,Module,Function modifying another function,Uses @ syntax
+Python,Medium,Which symbol is used for decorators?,@,#,$,%,@,Placed above function definition
+Python,Medium,What is a Closure?,Function retaining access to outer variables,Nested loop,Class object,Generator,Function retaining access to outer variables,Useful in functional programming
+Python,Medium,What is a Nested Function?,Function inside another function,Recursive function,Class method,Generator,Function inside another function,Improves encapsulation
+Python,Medium,What is the purpose of zip()?,Combine iterables,Sort data,Filter data,Generate numbers,Combine iterables,Returns iterator of tuples
+Python,Medium,What is enumerate() used for?,Get index and value together,Sort lists,Filter elements,Create dictionary,Get index and value together,Useful in loops
+Python,Medium,What is *args?,Variable-length positional arguments,Keyword arguments,List type,Tuple type,Variable-length positional arguments,Accepts multiple arguments
+Python,Medium,What is **kwargs?,Variable-length keyword arguments,Positional arguments,List type,Dictionary method,Variable-length keyword arguments,Passed as dictionary
+Python,Medium,What is JSON?,Data interchange format,Database type,Python module only,Loop structure,Data interchange format,Common in APIs
+Python,Medium,Which module handles JSON?,json,os,sys,math,json,Provides JSON parsing
+Python,Medium,What does json.loads() do?,Converts JSON string to Python object,Converts object to JSON,Reads file,Creates module,Converts JSON string to Python object,Parses JSON data
+Python,Medium,What does json.dumps() do?,Converts Python object to JSON string,Reads JSON file,Deletes JSON data,Creates dictionary,Converts Python object to JSON string,Serializes data
+Python,Medium,What is Exception Handling?,Managing runtime errors,Managing memory,Managing files,Managing modules,Managing runtime errors,Improves program stability
+Python,Medium,What is the purpose of else in try-except?,Runs if no exception occurs,Runs on exception,Runs always,Stops execution,Runs if no exception occurs,Optional exception block
+
+
+Python,Hard,What is the Global Interpreter Lock (GIL)?,Lock allowing only one thread to execute Python bytecode at a time,Database lock,File lock,Network lock,Lock allowing only one thread to execute Python bytecode at a time,Affects multithreading performance
+Python,Hard,What is Multithreading?,Running multiple threads concurrently,Running multiple programs,Running multiple CPUs,Running multiple files,Running multiple threads concurrently,Useful for I/O-bound tasks
+Python,Hard,What is Multiprocessing?,Running multiple processes concurrently,Running multiple threads,Running multiple files,Running multiple classes,Running multiple processes concurrently,Bypasses GIL limitations
+Python,Hard,Which module supports multiprocessing?,multiprocessing,threading,asyncio,concurrent,multiprocessing,Creates separate processes
+Python,Hard,What is a Thread?,Smallest unit of execution,Process,Object,Function,Smallest unit of execution,Exists within a process
+Python,Hard,What is Async Programming?,Non-blocking concurrent execution,Multithreading only,Multiprocessing only,Sequential execution,Non-blocking concurrent execution,Uses event loop
+Python,Hard,Which keyword defines an asynchronous function?,async,await,thread,yield,async,Introduced in Python 3.5
+Python,Hard,Which keyword waits for async result?,await,async,yield,return,await,Suspends coroutine execution
+Python,Hard,What is a Coroutine?,Special async function,Object type,Class method,Generator only,Special async function,Works with async/await
+Python,Hard,Which module provides async support?,asyncio,threading,os,sys,asyncio,Built-in async framework
+Python,Hard,What is Duck Typing?,Type determined by behavior not class,Type checking method,Inheritance model,Exception type,Type determined by behavior not class,Python's dynamic typing feature
+Python,Hard,What is Monkey Patching?,Modifying code at runtime,Debugging tool,Memory optimization,Code compilation,Modifying code at runtime,Can alter classes/functions dynamically
+Python,Hard,What is Method Resolution Order (MRO)?,Order Python searches classes for methods,Method execution speed,Class creation order,Object initialization order,Order Python searches classes for methods,Important in inheritance
+Python,Hard,Which method shows MRO?,mro(),order(),methods(),resolution(),mro(),Returns inheritance path
+Python,Hard,What is Metaclass?,Class of a class,Object creator,Function wrapper,Module manager,Class of a class,Controls class creation
+Python,Hard,What is __new__()?,Creates new instance before __init__,Deletes object,Updates object,Clones object,Creates new instance before __init__,Low-level constructor
+Python,Hard,What is __init__()?,Initializes object after creation,Creates object,Deletes object,Copies object,Initializes object after creation,Constructor method
+Python,Hard,What is Garbage Collection?,Automatic memory cleanup,File deletion,Process scheduling,Data encryption,Automatic memory cleanup,Removes unused objects
+Python,Hard,What is Reference Counting?,Memory management technique,Sorting method,Loop control,Exception handling,Memory management technique,Tracks object references
+Python,Hard,What is a Weak Reference?,Reference that does not increase reference count,Strong reference,Memory leak,Object copy,Reference that does not increase reference count,Provided by weakref module
+Python,Hard,What is a Context Manager?,Manages resources automatically,Class decorator,Exception handler,Thread manager,Manages resources automatically,Used with 'with' statement
+Python,Hard,Which method enters a context manager?,__enter__(),__start__(),__open__(),__begin__(),__enter__(),Called at start of with block
+Python,Hard,Which method exits a context manager?,__exit__(),__close__(),__end__(),__stop__(),__exit__(),Called when leaving with block
+Python,Hard,What is Pickling?,Object serialization process,Encryption technique,Sorting algorithm,Compilation method,Object serialization process,Stores Python objects
+Python,Hard,Which module supports pickling?,pickle,json,os,marshal,pickle,Serializes Python objects
+Python,Hard,What is Unpickling?,Deserialization of Python objects,Encryption process,Compilation process,Memory allocation,Deserialization of Python objects,Restores objects from pickle data
+Python,Hard,What is the purpose of __slots__?,Reduce memory usage in objects,Increase memory usage,Create methods automatically,Handle exceptions,Reduce memory usage in objects,Restricts dynamic attributes
+Python,Hard,What is a Descriptor?,Object controlling attribute access,Database connector,Memory manager,Thread controller,Object controlling attribute access,Uses __get__ and __set__
+Python,Hard,What is the purpose of property()?,Create managed attributes,Create classes,Create modules,Create packages,Create managed attributes,Supports getters and setters
+Python,Hard,What is Memoization?,Caching function results,Sorting data,Encrypting data,Compressing files,Caching function results,Improves performance
+Python,Hard,Which module provides LRU cache?,functools,collections,itertools,typing,functools,Contains lru_cache decorator
+Python,Hard,What is functools.lru_cache used for?,Caching function calls,Creating threads,Managing files,Parsing JSON,Caching function calls,Speeds repeated computations
+Python,Hard,What is an Abstract Base Class?,Class that cannot be instantiated directly,Normal class,Child class,Module,Class that cannot be instantiated directly,Defined using abc module
+Python,Hard,Which module supports Abstract Base Classes?,abc,os,sys,json,abc,Provides ABC functionality
+Python,Hard,What is a Virtual Environment?,Isolated Python environment,Database instance,Virtual machine,Container,Isolated Python environment,Manages dependencies separately
+Python,Hard,Which command creates a virtual environment?,python -m venv env,pip install env,python create env,virtualenv start,python -m venv env,Standard venv creation
+Python,Hard,What is pip?,Python package manager,Python compiler,Database tool,Debugger,Python package manager,Installs libraries
+Python,Hard,What is PyPI?,Python Package Index,Python IDE,Python Interpreter,Python Framework,Python Package Index,Repository of Python packages
+Python,Hard,What is a Wheel (.whl) file?,Built package distribution,Source code file,Configuration file,Database file,Built package distribution,Faster package installation
+Python,Hard,What is a Namespace?,Container for identifiers,Package manager,Memory location,Database schema,Container for identifiers,Prevents naming conflicts
+Python,Hard,What is LEGB Rule?,Scope resolution order,Sorting algorithm,Memory model,Loop structure,Scope resolution order,Local-Enclosing-Global-Built-in
+Python,Hard,What does LEGB stand for?,Local Enclosing Global Built-in,Local External Global Binary,Logical Enclosing Group Block,Local Execution Global Base,Local Enclosing Global Built-in,Python variable lookup order
+Python,Hard,What is Dynamic Typing?,Variable type determined at runtime,Compile-time typing,Static typing,Manual typing,Variable type determined at runtime,Python feature
+Python,Hard,What is Introspection?,Examining objects at runtime,Code compilation,Memory optimization,Thread execution,Examining objects at runtime,Uses functions like dir()
+Python,Hard,Which function lists object attributes?,dir(),help(),vars(),type(),dir(),Returns attribute names
+Python,Hard,What is Reflection in Python?,Inspecting and modifying objects at runtime,Code compilation,Memory management,Data serialization,Inspecting and modifying objects at runtime,Supports dynamic behavior
+Python,Hard,What is the purpose of getattr()?,Access attribute dynamically,Create attribute,Delete attribute,Sort attributes,Access attribute dynamically,Returns attribute value
+Python,Hard,What is the purpose of setattr()?,Set attribute dynamically,Get attribute,Delete attribute,Create class,Set attribute dynamically,Modifies object attributes
+Python,Hard,What is the purpose of hasattr()?,Check if attribute exists,Create attribute,Delete attribute,Rename attribute,Check if attribute exists,Returns Boolean value
+Python,Hard,What is the purpose of delattr()?,Delete object attribute,Create attribute,Get attribute,Rename attribute,Delete object attribute,Removes specified attribute

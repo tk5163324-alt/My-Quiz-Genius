@@ -1,0 +1,154 @@
+subject,difficulty,question,option_a,option_b,option_c,option_d,answer,explanation
+
+Computer Networks,Easy,What does LAN stand for?,Local Area Network,Large Area Network,Long Area Node,Light Access Network,Local Area Network,LAN connects devices in a small area
+Computer Networks,Easy,Which device connects networks?,Router,Monitor,Keyboard,Printer,Router,Router connects different networks
+Computer Networks,Easy,What is IP?,Internet Protocol,Internal Program,Internet Process,Input Protocol,Internet Protocol,IP is used for addressing
+Computer Networks,Easy,Which is a networking device?,Switch,CPU,RAM,Hard Disk,Switch,Switch connects devices in LAN
+Computer Networks,Easy,What is WAN?,Wide Area Network,Wireless Access Node,Web Area Node,World Access Network,Wide Area Network,WAN covers large geographical area
+Computer Networks,Easy,Which cable is used in LAN?,Ethernet Cable,HDMI,USB,VGA,Ethernet Cable,Used for wired LAN connection
+Computer Networks,Easy,What is HTTP?,Web protocol,Hardware tool,Software app,Network cable,Web protocol,HTTP is used for web communication
+Computer Networks,Easy,What does DNS do?,Converts domain to IP,Deletes files,Saves data,Encrypts files,Converts domain to IP,It translates domain names
+Computer Networks,Easy,Which is a browser?,Chrome,Excel,Word,Paint,Chrome,Browser is used to access internet
+Computer Networks,Easy,What is modem?,Device for internet connection,Storage device,Input device,Output device,Device for internet connection,Modem connects to ISP
+Computer Networks,Easy,Full form of Wi-Fi?,Wireless Fidelity,Wide Fidelity,Web Fidelity,Wireless File,Wireless Fidelity,Wi-Fi is wireless networking
+Computer Networks,Easy,What is topology?,Network layout,Software type,Hardware brand,Programming language,Network layout,Topology defines structure
+Computer Networks,Easy,Which is network topology?,Star,Batch,Loop Code,Stack,Star,Star is a common topology
+Computer Networks,Easy,What is email used for?,Sending messages,Playing games,Editing videos,Coding,Sending messages,Email is communication tool
+Computer Networks,Easy,Which device forwards packets?,Router,Mouse,Keyboard,Speaker,Router,Router forwards packets
+Computer Networks,Easy,What is TCP?,Transmission Control Protocol,Transfer Copy Program,Total Control Process,Technical Control Protocol,Transmission Control Protocol,TCP ensures reliable communication
+Computer Networks,Easy,What is a website?,Collection of web pages,Software,Hardware,Network device,Collection of web pages,Website contains pages
+Computer Networks,Easy,What is ISP?,Internet Service Provider,Internal System Program,Internet Speed Protocol,Input Service Provider,Internet Service Provider,ISP gives internet access
+Computer Networks,Easy,Which protocol is used for email?,SMTP,HTTP,FTP,DNS,SMTP,SMTP sends emails
+Computer Networks,Easy,What is bandwidth?,Data transfer rate,Computer speed,Memory size,CPU speed,Data transfer rate,Bandwidth measures speed
+Computer Networks,Easy,What is FTP?,File Transfer Protocol,Fast Transfer Process,File Text Program,Fixed Transfer Protocol,File Transfer Protocol,FTP transfers files
+Computer Networks,Easy,Which device stores MAC address table?,Switch,Router,Modem,Hub,Switch,Switch uses MAC table
+Computer Networks,Easy,What is MAC address?,Device physical address,IP address,Network speed,Software ID,Device physical address,MAC is unique hardware address
+Computer Networks,Easy,What is packet?,Small data unit,Large file,Software,Hardware,Small data unit,Data is sent in packets
+Computer Networks,Easy,What is cloud computing?,Internet-based computing,Offline computing,Hardware repair,Local storage,Internet-based computing,Cloud uses internet servers
+Computer Networks,Easy,What is ping used for?,Check connectivity,Delete files,Install apps,Edit videos,Check connectivity,Ping tests network connection
+Computer Networks,Easy,Which is a protocol?,TCP,CPU,RAM,Monitor,TCP,TCP is a network protocol
+Computer Networks,Easy,What is a firewall?,Security system,Hardware cable,Router type,Printer,Security system,Firewall protects network
+Computer Networks,Easy,What is internet?,Global network,Local computer,Software tool,Operating system,Global network,Internet connects worldwide devices
+Computer Networks,Easy,Which layer sends data?,Application layer,Physical layer only,Random layer,User layer,Application layer,It sends data from apps
+Computer Networks,Easy,What is node?,Device in network,Software,Game,File,Device in network,Node is any connected device
+Computer Networks,Easy,What is router used for?,Direct data traffic,Play music,Store files,Print documents,Direct data traffic,Router directs packets
+Computer Networks,Easy,What is latency?,Delay in data transfer,Speed increase,File size,Memory type,Delay in data transfer,Latency is network delay
+Computer Networks,Easy,What is HTTPs?,Secure HTTP,Hardware protocol,High Transfer Process,Host Transfer Protocol,Secure HTTP,HTTPS is secure version
+Computer Networks,Easy,What is LAN speed generally?,High speed,Very slow,Zero speed,Random speed,High speed,LAN is fast network
+Computer Networks,Easy,What is a hub?,Basic network device,Software,Game engine,Database,Basic network device,Hub connects multiple devices
+Computer Networks,Easy,What is IP address?,Device identifier,File type,Software name,Game ID,Device identifier,IP identifies device
+Computer Networks,Easy,What is network?,Connected devices,Single computer,Software,Hardware,Connected devices,Network connects systems
+Computer Networks,Easy,Which is wireless technology?,Wi-Fi,LAN cable,USB cable,HDMI,Wi-Fi,Wi-Fi is wireless
+Computer Networks,Easy,What is browser used for?,Access internet,Edit photos,Play music,Write code,Access internet,Browser opens websites
+Computer Networks,Easy,What is download?,Receive data,Send data,Delete data,Encrypt data,Receive data,Download brings data to device
+Computer Networks,Easy,What is upload?,Send data,Receive data,Delete data,Format data,Send data,Upload sends data to server
+Computer Networks,Easy,What is router IP?,Gateway address,File address,MAC address,Website URL,Gateway address,Router acts as gateway
+Computer Networks,Easy,What is network security?,Protection of network,Game feature,Software tool,Hardware part,Protection of network,It protects data
+Computer Networks,Easy,What is packet switching?,Sending data in packets,Direct transfer,Single file transfer,Manual transfer,Sending data in packets,Data is divided into packets
+Computer Networks,Easy,What is email?,Electronic mail,Web page,Software,Hardware,Electronic mail,Used for communication
+
+
+subject,difficulty,question,option_a,option_b,option_c,option_d,answer,explanation
+
+Computer Networks,Medium,Which OSI layer handles routing?,Network Layer,Data Link Layer,Physical Layer,Session Layer,Network Layer,Routing is handled by Network Layer
+Computer Networks,Medium,Which protocol is connection-oriented?,TCP,UDP,IP,HTTP,TCP,TCP ensures reliable connection
+Computer Networks,Medium,UDP is used for?,Fast transmission,File storage,Encryption,Routing,Fast transmission,UDP is faster but unreliable
+Computer Networks,Medium,How many layers in OSI model?,7,5,4,6,7,OSI has 7 layers
+Computer Networks,Medium,Which layer is responsible for encryption?,Presentation Layer,Physical Layer,Network Layer,Data Link Layer,Presentation Layer,Handles encoding and encryption
+Computer Networks,Medium,Which device works at Layer 2?,Switch,Router,Gateway,Modem,Switch,Switch operates at Data Link layer
+Computer Networks,Medium,Which IP version is most used?,IPv4,IPv6,IPv3,IPv5,IPv4,IPv4 is widely used
+Computer Networks,Medium,What is subnet mask used for?,Network division,File transfer,Encryption,Speed increase,Network division,It divides network into subnets
+Computer Networks,Medium,Which protocol resolves IP to MAC?,ARP,RARP,DNS,HTTP,ARP,ARP maps IP to MAC
+Computer Networks,Medium,Which layer sends bits?,Physical Layer,Application Layer,Session Layer,Transport Layer,Physical Layer,Handles raw bits transmission
+Computer Networks,Medium,What is port number?,Service identifier,IP address,MAC address,Protocol type,Service identifier,Ports identify services
+Computer Networks,Medium,Which is reliable protocol?,TCP,UDP,ICMP,IP,TCP,TCP ensures reliability
+Computer Networks,Medium,What is full form of ARP?,Address Resolution Protocol,Automatic Routing Protocol,Advanced Response Protocol,Access Routing Protocol,Address Resolution Protocol,ARP maps IP to MAC
+Computer Networks,Medium,What is DHCP used for?,Assign IP automatically,Encrypt data,Speed internet,Block websites,Assign IP automatically,DHCP assigns dynamic IPs
+Computer Networks,Medium,What is NAT?,Network Address Translation,Network Access Tool,Node Address Table,New Access Transfer,Network Address Translation,NAT converts private to public IP
+Computer Networks,Medium,Which topology uses central hub?,Star,Bus,Ring,Mesh,Star,Star topology uses central node
+Computer Networks,Medium,What is DNS server?,Name to IP converter,File server,Game server,Mail server,Name to IP converter,DNS resolves domain names
+Computer Networks,Medium,Which layer is responsible for session management?,Session Layer,Network Layer,Physical Layer,Data Link Layer,Session Layer,Manages sessions between devices
+Computer Networks,Medium,What is checksum used for?,Error detection,Encryption,Routing,Compression,Error detection,Checks data integrity
+Computer Networks,Medium,What is firewall used for?,Security control,Speed increase,Routing,File transfer,Security control,Protects network traffic
+Computer Networks,Medium,Which protocol is used in web browsing?,HTTP,FTP,SMTP,POP3,HTTP,HTTP loads web pages
+Computer Networks,Medium,What is packet loss?,Data not received,Data duplication,Speed increase,Encryption failure,Data not received,Packets lost during transmission
+Computer Networks,Medium,Which layer ensures end-to-end delivery?,Transport Layer,Physical Layer,Session Layer,Application Layer,Transport Layer,TCP works at transport layer
+Computer Networks,Medium,What is a gateway?,Network connector,Software app,File system,Hardware disk,Network connector,Connects different networks
+Computer Networks,Medium,Which is a private IP range?,192.168.x.x,8.8.8.8,172.100.100.1,1.1.1.1,192.168.x.x,Private networks use 192.168
+Computer Networks,Medium,What is VPN?,Virtual Private Network,Visual Protocol Node,Virtual Public Network,Verified Private Node,Virtual Private Network,VPN creates secure connection
+Computer Networks,Medium,What is MAC filtering?,Device access control,Speed control,File deletion,IP change,Device access control,Controls allowed devices
+Computer Networks,Medium,What is routing table?,Path information,File list,Memory list,User list,Path information,Stores network routes
+Computer Networks,Medium,Which protocol sends error messages?,ICMP,TCP,UDP,FTP,ICMP,ICMP reports errors
+Computer Networks,Medium,What is congestion?,Network overload,Fast speed,Data encryption,File transfer,Network overload,Too much traffic in network
+Computer Networks,Medium,Which layer is closest to user?,Application Layer,Physical Layer,Network Layer,Data Link Layer,Application Layer,It interacts with users
+Computer Networks,Medium,What is packet header?,Control information,Data body,File name,IP address only,Control information,Contains routing info
+Computer Networks,Medium,What is peer-to-peer network?,Direct device connection,Central server network,Wireless only,Internet only,Direct device connection,Devices connect directly
+Computer Networks,Medium,What is latency affected by?,Distance,File size only,CPU only,Software only,Distance,Long distance increases delay
+Computer Networks,Medium,What is bandwidth efficiency?,Data usage effectiveness,Speed only,Hardware power,CPU usage,Data usage effectiveness,Efficient use of bandwidth
+Computer Networks,Medium,Which layer handles framing?,Data Link Layer,Physical Layer,Session Layer,Application Layer,Data Link Layer,Creates frames for transmission
+Computer Networks,Medium,What is encapsulation?,Adding headers,Deleting data,Encrypting files,Speed increase,Adding headers,Data wrapped with headers
+Computer Networks,Medium,What is decapsulation?,Removing headers,Adding files,Speed increase,Encryption,Removing headers,Opposite of encapsulation
+Computer Networks,Medium,Which protocol is used for file transfer?,FTP,HTTP,SMTP,DNS,FTP,FTP transfers files
+Computer Networks,Medium,What is MAC address length?,48 bits,32 bits,64 bits,16 bits,48 bits,MAC is 48-bit address
+Computer Networks,Medium,What is IPv6 size?,128 bits,32 bits,64 bits,256 bits,128 bits,IPv6 uses larger address space
+Computer Networks,Medium,What is hop count?,Number of routers,File size,Speed measure,IP type,Number of routers,Counts network hops
+Computer Networks,Medium,What is proxy server?,Intermediate server,Game server,Router only,Firewall only,Intermediate server,Acts between client and internet
+Computer Networks,Medium,What is socket?,IP + Port,File system,Hardware device,Network cable,IP + Port,Sockets identify connections
+Computer Networks,Medium,Which layer handles error detection?,Data Link Layer,Physical Layer,Session Layer,Application Layer,Data Link Layer,Checks errors in frames
+Computer Networks,Medium,What is round trip time?,Time for request-response,Download speed,Upload speed,CPU time,Time for request-response,Measures latency
+Computer Networks,Medium,What is multicast?,One to many,One to one,Many to one,All to all,One to many,Sends data to group
+Computer Networks,Medium,What is unicast?,One to one,One to many,Many to many,All to all,One to one,Single sender to receiver
+Computer Networks,Medium,What is broadcast?,One to all,One to one,Many to one,None,One to all,Sends to all devices
+Computer Networks,Medium,What is jitter?,Variation in delay,Speed increase,File size,Encryption type,Variation in delay,Delay variation in packets
+Computer Networks,Medium,What is network throughput?,Actual data transfer rate,Maximum speed only,CPU speed,Memory speed,Actual data transfer rate,Real achieved bandwidth
+
+subject,difficulty,question,option_a,option_b,option_c,option_d,answer,explanation
+
+Computer Networks,Hard,Which protocol uses sliding window?,TCP,UDP,IP,ARP,TCP,TCP uses flow control with sliding window
+Computer Networks,Hard,What is selective repeat?,ARQ protocol,Routing protocol,Encryption method,Switching method,ARQ protocol,Used for error control
+Computer Networks,Hard,Which algorithm is used in OSPF?,Dijkstra,Bellman Ford,Floyd Warshall,Prim,Dijkstra,OSPF uses shortest path first
+Computer Networks,Hard,What is BGP used for?,Internet routing,File transfer,Email sending,Encryption,Internet routing,BGP connects ISPs
+Computer Networks,Hard,What is CIDR?,Classless addressing,Classful routing,Encryption method,Switching technique,Classless addressing,CIDR replaces classful IP
+Computer Networks,Hard,What is tunneling in VPN?,Encapsulating packets,Deleting packets,Speed increase,Routing only,Encapsulating packets,Data is wrapped securely
+Computer Networks,Hard,Which attack floods network?,DDoS,Phishing,SQL Injection,MITM,DDoS,Overloads network traffic
+Computer Networks,Hard,What is MAC spoofing?,Changing MAC address,Encrypting MAC,Deleting MAC,Speed change,Changing MAC address,Used in attacks
+Computer Networks,Hard,What is VLAN?,Virtual LAN,Very Large Area Network,Virtual Link Access,Verified LAN,Virtual LAN,Logical LAN segmentation
+Computer Networks,Hard,Which layer uses ports?,Transport Layer,Network Layer,Physical Layer,Data Link Layer,Transport Layer,Ports are in TCP/UDP
+Computer Networks,Hard,What is three-way handshake?,TCP connection setup,Routing method,Encryption method,Switching method,TCP connection setup,SYN-SYNACK-ACK
+Computer Networks,Hard,What is SYN flag used for?,Connection request,Data transfer,Encryption,Routing,Connection request,Used in TCP handshake
+Computer Networks,Hard,What is ACK?,Acknowledgement,Attack,Address Key,Access Key,Acknowledgement,Confirms data receipt
+Computer Networks,Hard,What is congestion control?,Traffic management,Encryption,Routing,File transfer,Traffic management,TCP manages congestion
+Computer Networks,Hard,Which protocol is stateless?,UDP,TCP,FTP,SMTP,UDP,UDP does not maintain state
+Computer Networks,Hard,What is flow control?,Speed adjustment,Encryption,Routing,Addressing,Speed adjustment,Prevents overflow
+Computer Networks,Hard,What is stop-and-wait protocol?,Send one frame at a time,Send all frames,No error check,Random send,Send one frame at a time,Simple ARQ method
+Computer Networks,Hard,What is distance vector routing?,Routing based on distance,Based on encryption,Based on ports,Based on MAC,Routing based on distance,Bellman-Ford based routing
+Computer Networks,Hard,What is link state routing?,Topology knowledge routing,Random routing,MAC routing,IP routing,Topology knowledge routing,Uses full network map
+Computer Networks,Hard,What is NAT overload?,Port address translation,IP duplication,Routing failure,Encryption method,Port address translation,Multiple private IPs use one public IP
+Computer Networks,Hard,What is subnetting?,Dividing network,Joining networks,Encrypting data,Speed increase,Dividing network,Creates smaller networks
+Computer Networks,Hard,What is supernetting?,Combining networks,Dividing networks,Encryption,Firewall technique,Combining networks,Opposite of subnetting
+Computer Networks,Hard,What is MTU?,Maximum transmission unit,Largest IP,Minimum packet size,Memory type,Maximum transmission unit,Max packet size allowed
+Computer Networks,Hard,What is fragmentation?,Breaking packets,Joining packets,Encryption,Routing,Breaking packets,Large packets split
+Computer Networks,Hard,Which protocol uses UDP?,DNS,HTTP,SMTP,FTP,DNS,DNS often uses UDP
+Computer Networks,Hard,What is socket programming?,Network programming using sockets,Hardware setup,Routing setup,Firewall setup,Network programming using sockets,Used in communication apps
+Computer Networks,Hard,What is half duplex?,Both directions but one at a time,Only one direction,No communication,Full speed,Both directions but one at a time,Walkie-talkie example
+Computer Networks,Hard,What is full duplex?,Both directions simultaneously,One direction only,No communication,Half speed,Both directions simultaneously,Phone call example
+Computer Networks,Hard,What is piggybacking?,Combining ACK with data,Speed increase,Encryption,Routing,Combining ACK with data,Saves bandwidth
+Computer Networks,Hard,What is ARQ?,Automatic Repeat Request,Address Routing Query,Advanced Routing Queue,Access Request,Automatic Repeat Request,Error control method
+Computer Networks,Hard,What is Go-Back-N?,ARQ protocol,Routing protocol,Encryption method,Switch type,ARQ protocol,Resends multiple frames
+Computer Networks,Hard,What is CRC?,Cyclic Redundancy Check,Computer Routing Code,Central Routing Control,Core Repeat Check,Cyclic Redundancy Check,Error detection method
+Computer Networks,Hard,What is parity bit?,Error detection bit,Data bit,IP bit,MAC bit,Error detection bit,Simple error checking
+Computer Networks,Hard,What is checksum failure?,Data corruption,Speed increase,Routing success,Encryption success,Data corruption,Data error detected
+Computer Networks,Hard,What is NAT traversal?,Access through NAT,Blocking NAT,Deleting NAT,Speed NAT,Access through NAT,Allows external access
+Computer Networks,Hard,What is MPLS?,Multi Protocol Label Switching,Main Packet Link System,Multi Path Layer System,Managed Protocol LAN System,Multi Protocol Label Switching,Efficient routing method
+Computer Networks,Hard,What is QoS?,Quality of Service,Quick Output Speed,Query Operating System,Queue of Signals,Quality of Service,Manages traffic priority
+Computer Networks,Hard,What is jitter buffer?,Smooths packet delay,Storage device,Router memory,Firewall tool,Smooths packet delay,Reduces delay variation
+Computer Networks,Hard,What is VPN encryption?,Secure tunneling,Speed increase,Routing method,Packet loss,Secure tunneling,Protects data
+Computer Networks,Hard,What is port scanning?,Finding open ports,Speed test,Routing test,Encryption test,Finding open ports,Used in security analysis
+Computer Networks,Hard,What is man-in-the-middle attack?,Intercepting communication,Hacking CPU,Deleting files,Speed attack,Intercepting communication,Attacker intercepts data
+Computer Networks,Hard,What is sniffing?,Capturing packets,Deleting packets,Speed increase,Routing,Capturing packets,Used in network monitoring
+Computer Networks,Hard,What is spoofing?,Fake identity attack,Encryption,Routing,Firewall,Fake identity attack,Used in cyber attacks
+Computer Networks,Hard,What is VLAN tagging?,Identifying VLANs,Encrypting VLAN,Deleting VLAN,Speed VLAN,Identifying VLANs,Marks VLAN frames
+Computer Networks,Hard,What is MPLS label?,Routing identifier,IP address,MAC address,Port number,Routing identifier,Used for fast routing
+Computer Networks,Hard,What is ARP cache?,Stored IP-MAC mapping,Router memory,Firewall list,IP table,Stored IP-MAC mapping,Speeds address resolution
+Computer Networks,Hard,What is routing convergence?,Network stability,Speed drop,Packet loss,Encryption,Network stability,Routers agree on routes
+Computer Networks,Hard,What is network scalability?,Ability to grow network,Speed only,Security only,Hardware type,Ability to grow network,Supports expansion

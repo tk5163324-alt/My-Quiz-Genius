@@ -1,0 +1,256 @@
+{% extends 'base.html' %}
+
+
+{% block content %}
+
+
+<div class="container mt-5">
+
+
+<div class="row">
+
+
+
+    <!-- Profile Card -->
+
+    <div class="col-md-4">
+
+
+        <div class="card shadow p-4 text-center">
+
+
+            {% if user.profile.profile_pic %}
+
+
+            <img 
+            src="{{user.profile.profile_pic.url}}" 
+            class="rounded-circle mx-auto"
+            width="120"
+            height="120"
+            style="object-fit:cover;">
+
+
+
+            {% else %}
+
+
+            <img 
+            src="/media/profile/default.png"
+            class="rounded-circle mx-auto"
+            width="120"
+            height="120">
+
+
+
+            {% endif %}
+
+
+
+
+
+            <h2 class="mt-3">
+
+                {{user.username}}
+
+            </h2>
+
+
+
+            <hr>
+
+
+
+
+            <h5>
+
+                Total Quizzes
+
+            </h5>
+
+
+            <h2 class="text-primary">
+
+                {{total_quizzes}}
+
+            </h2>
+
+
+
+
+
+            <h5>
+
+                Best Score
+
+            </h5>
+
+
+
+            <h2 class="text-success">
+
+                {{best_score|floatformat:2}} %
+
+            </h2>
+
+
+
+        </div>
+
+
+
+    </div>
+
+
+
+
+
+
+
+    <!-- Quiz History -->
+
+
+    <div class="col-md-8">
+
+
+        <div class="card shadow p-4">
+
+
+
+            <h3 class="mb-4">
+
+                📜 Quiz History
+
+            </h3>
+
+
+
+
+
+            <table class="table table-bordered text-center">
+
+
+
+                <tr>
+
+
+                    <th>
+                        Category
+                    </th>
+
+
+                    <th>
+                        Score
+                    </th>
+
+
+                    <th>
+                        Percentage
+                    </th>
+
+
+                    <th>
+                        Date
+                    </th>
+
+
+                </tr>
+
+
+
+
+
+
+                {% for a in attempts %}
+
+
+
+
+                <tr>
+
+
+                    <td>
+
+                        {{a.category}}
+
+                    </td>
+
+
+
+                    <td>
+
+                        {{a.score}} / {{a.total_questions}}
+
+                    </td>
+
+
+
+
+                    <td>
+
+                        {{a.percentage|floatformat:2}} %
+
+                    </td>
+
+
+
+
+                    <td>
+
+                        {{a.created_at|date:"d M Y"}}
+
+                    </td>
+
+
+
+                </tr>
+
+
+
+
+
+                {% empty %}
+
+
+
+                <tr>
+
+
+                    <td colspan="4">
+
+                        No quizzes attempted yet
+
+                    </td>
+
+
+                </tr>
+
+
+
+
+                {% endfor %}
+
+
+
+
+            </table>
+
+
+
+
+        </div>
+
+
+
+    </div>
+
+
+
+
+</div>
+
+
+</div>
+
+
+
+{% endblock %}
