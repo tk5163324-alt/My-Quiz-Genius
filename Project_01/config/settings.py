@@ -25,10 +25,7 @@ SECRET_KEY = 'django-insecure-j#j90%q(2pk=bsc!*ylidl9-78zudh&)ax4n)r-cu3(j@99%*v
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = [
-    "127.0.0.1",
-    "localhost",
-]
+ALLOWED_HOSTS = ['my-quiz-genius.onrender.com', '127.0.0.1', 'localhost']
 
 # Application definition
 
