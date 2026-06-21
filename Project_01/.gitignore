@@ -1,7 +1,17 @@
-vevn/
-.vscode/
-db.sqlite3
-media/
+# Python
 __pycache__/
 *.pyc
-.evn
+
+# Database
+db.sqlite3
+
+# Virtual environment
+vevn/
+
+# Django secrets
+*.log
+*.pot
+*.pyc
+
+# Media (uploaded files)
+media/profile/
