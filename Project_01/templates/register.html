@@ -7,152 +7,116 @@
 <div class="container mt-5">
 
 
-<div class="card shadow p-4 mx-auto" style="max-width:500px;">
+    <div class="card shadow p-4 mx-auto" style="max-width:500px;">
 
 
 
-<h2 class="text-center mb-3">
+        <h2 class="text-center mb-3">
 
-Register
+            Register
 
-</h2>
+        </h2>
 
 
 
-{% if messages %}
+        {% if messages %}
 
 
-{% for message in messages %}
+        {% for message in messages %}
 
 
-<div class="alert alert-warning">
+        <div class="alert alert-warning">
 
-{{message}}
+            {{message}}
 
-</div>
+        </div>
 
 
-{% endfor %}
+        {% endfor %}
 
 
-{% endif %}
+        {% endif %}
 
 
 
 
-<form method="POST" enctype="multipart/form-data">
+        <form method="POST">
 
+            {% csrf_token %}
 
-{% csrf_token %}
 
 
+            <label class="form-label">
 
-<label class="form-label">
+                Username
 
-Username
+            </label>
 
-</label>
 
+            <input class="form-control mb-2" type="text" name="username" placeholder="Enter Username" required>
 
-<input 
-class="form-control mb-2"
-type="text"
-name="username"
-placeholder="Enter Username"
-required>
 
 
 
+            <label class="form-label">
 
-<label class="form-label">
+                Email
 
-Email
+            </label>
 
-</label>
 
+            <input class="form-control mb-2" type="email" name="email" placeholder="Enter Email" required>
 
-<input 
-class="form-control mb-2"
-type="email"
-name="email"
-placeholder="Enter Email"
-required>
 
 
 
 
+            <label class="form-label">
 
-<label class="form-label">
+                Password
 
-Password
+            </label>
 
-</label>
 
+            <input class="form-control mb-2" type="password" name="password" placeholder="Enter Password" required>
 
-<input 
-class="form-control mb-2"
-type="password"
-name="password"
-placeholder="Enter Password"
-required>
 
 
+            <button class="btn btn-primary w-100" type="submit">
 
 
-<label class="form-label">
+                Register
 
-Profile Picture
 
-</label>
+            </button>
 
 
-<input 
-class="form-control mb-3"
-type="file"
-name="profile_pic"
-accept="image/*">
 
+        </form>
 
 
 
 
-<button 
-class="btn btn-primary w-100"
-type="submit">
 
+        <p class="text-center mt-3 mb-0">
 
-Register
 
+            Already have an account?
 
-</button>
 
+            <a href="/login/">
 
+                Login
 
-</form>
+            </a>
 
 
 
+        </p>
 
 
-<p class="text-center mt-3 mb-0">
 
-
-Already have an account?
-
-
-<a href="/login/">
-
-Login
-
-</a>
-
-
-
-</p>
-
-
-
-</div>
+    </div>
 
 
 </div>
