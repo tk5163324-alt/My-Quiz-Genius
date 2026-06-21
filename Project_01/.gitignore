@@ -11,7 +11,7 @@ vevn/
 # Django secrets
 *.log
 *.pot
-*.pyc
+*.pycpip freeze > requirements.txt
 
 # Media (uploaded files)
 media/profile/
