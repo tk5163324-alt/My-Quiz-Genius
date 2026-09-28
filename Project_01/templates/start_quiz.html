@@ -1,0 +1,170 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+
+<div class="container mt-5">
+
+
+<div class="card shadow p-5">
+
+
+    <h2 class="text-center mb-4">
+        Start Quiz
+    </h2>
+
+
+
+    <form method="POST">
+
+        {% csrf_token %}
+
+
+
+        <!-- Subject -->
+
+        <label class="form-label">
+
+            Select Subject
+
+        </label>
+
+
+        <select 
+        name="category" 
+        class="form-select mb-4">
+
+
+            {% for c in categories %}
+
+
+            <option value="{{c.id}}">
+
+                {{c.name}}
+
+            </option>
+
+
+            {% endfor %}
+
+
+        </select>
+
+
+
+
+        <!-- Difficulty -->
+
+
+        <label class="form-label">
+
+            Select Difficulty
+
+        </label>
+
+
+
+        <select 
+        name="difficulty" 
+        class="form-select mb-4">
+
+
+            <option value="Easy">
+
+                Easy
+
+            </option>
+
+
+            <option value="Medium">
+
+                Medium
+
+            </option>
+
+
+            <option value="Hard">
+
+                Hard
+
+            </option>
+
+
+        </select>
+
+
+
+
+        <!-- Number of Questions -->
+
+
+        <label class="form-label">
+
+            Number of Questions
+
+        </label>
+
+
+
+        <select 
+        name="question_limit"
+        class="form-select mb-4">
+
+
+            <option value="5">
+
+                5 Questions
+
+            </option>
+
+
+            <option value="10">
+
+                10 Questions
+
+            </option>
+
+
+            <option value="20">
+
+                20 Questions
+
+            </option>
+
+
+            <option value="50">
+
+                50 Questions
+
+            </option>
+
+
+        </select>
+
+
+
+
+
+        <button 
+        type="submit" 
+        class="btn btn-primary w-100">
+
+
+            Start Quiz
+
+
+        </button>
+
+
+
+    </form>
+
+
+</div>
+
+
+</div>
+
+
+
+{% endblock %}

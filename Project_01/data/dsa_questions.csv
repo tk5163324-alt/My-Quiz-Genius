@@ -1,0 +1,159 @@
+subject,difficulty,question,option_a,option_b,option_c,option_d,answer,explanation
+DSA,Easy,What does DSA stand for?,Data Structures and Algorithms,Database Systems and Applications,Data Science Analysis,Distributed System Architecture,Data Structures and Algorithms,Fundamental CS topic
+DSA,Easy,Which data structure follows FIFO?,Queue,Stack,Tree,Graph,Queue,First In First Out
+DSA,Easy,Which data structure follows LIFO?,Stack,Queue,Array,Linked List,Stack,Last In First Out
+DSA,Easy,Which data structure stores elements in contiguous memory?,Array,Linked List,Tree,Graph,Array,Stored sequentially
+DSA,Easy,What is the index of first element in an array?,0,1,-1,2,0,Array indexing starts at 0
+DSA,Easy,Which operation adds element to stack?,Push,Pop,Insert,Enqueue,Push,Push adds item
+DSA,Easy,Which operation removes element from stack?,Pop,Push,Delete,Enqueue,Pop,Pop removes top element
+DSA,Easy,Which operation inserts element into queue?,Enqueue,Push,Pop,Delete,Enqueue,Adds at rear
+DSA,Easy,Which operation removes element from queue?,Dequeue,Pop,Delete,Push,Dequeue,Removes from front
+DSA,Easy,Which data structure uses nodes and pointers?,Linked List,Array,Queue,Stack,Linked List,Nodes are linked
+DSA,Easy,What is the first node of linked list called?,Head,Tail,Root,Leaf,Head,Starting node
+DSA,Easy,What is the last node of linked list called?,Tail,Head,Root,Leaf,Tail,Ending node
+DSA,Easy,Which traversal visits Root Left Right?,Preorder,Inorder,Postorder,Levelorder,Preorder,Root first
+DSA,Easy,Which traversal visits Left Root Right?,Inorder,Preorder,Postorder,BFS,Inorder,Common BST traversal
+DSA,Easy,Which traversal visits Left Right Root?,Postorder,Inorder,Preorder,DFS,Postorder,Root visited last
+DSA,Easy,What is the top element of stack called?,Top,Head,Tail,Root,Top,Stack pointer
+DSA,Easy,Which data structure represents hierarchical data?,Tree,Array,Queue,Stack,Tree,Parent-child relation
+DSA,Easy,What is the topmost node in a tree called?,Root,Leaf,Parent,Child,Root,Starting node
+DSA,Easy,Node without children is called?,Leaf,Root,Parent,Edge,Leaf,Terminal node
+DSA,Easy,Which data structure represents networks?,Graph,Tree,Queue,Stack,Graph,Vertices and edges
+DSA,Easy,What connects vertices in graph?,Edge,Node,Root,Leaf,Edge,Graph connection
+DSA,Easy,What is searching?,Finding an element,Sorting elements,Deleting element,Inserting element,Finding an element,Search operation
+DSA,Easy,Which search works on sorted arrays?,Binary Search,Linear Search,DFS,BFS,Binary Search,Requires sorted data
+DSA,Easy,What is the time complexity of linear search?,O(n),O(log n),O(1),O(n²),O(n),Checks each element
+DSA,Easy,What is the best case complexity of binary search?,O(1),O(log n),O(n),O(n²),O(1),Element found immediately 
+
+
+DSA,Easy,What is the average time complexity of binary search?,O(log n),O(n),O(1),O(n log n),O(log n),Binary search halves the search space
+DSA,Easy,Which sorting algorithm repeatedly swaps adjacent elements?,Bubble Sort,Merge Sort,Quick Sort,Heap Sort,Bubble Sort,Largest elements move to the end
+DSA,Easy,Which sorting algorithm selects the minimum element repeatedly?,Selection Sort,Bubble Sort,Merge Sort,Quick Sort,Selection Sort,Finds minimum in each pass
+DSA,Easy,Which sorting algorithm inserts elements into correct position?,Insertion Sort,Merge Sort,Heap Sort,Quick Sort,Insertion Sort,Builds sorted array gradually
+DSA,Easy,What is the worst-case complexity of Bubble Sort?,O(n²),O(n),O(log n),O(n log n),O(n²),Nested comparisons
+DSA,Easy,Which data structure is used for recursion?,Stack,Queue,Tree,Graph,Stack,Function calls use stack memory
+DSA,Easy,What is recursion?,Function calling itself,Sorting algorithm,Searching technique,Data structure,Function calling itself,Solves problems by repetition
+DSA,Easy,Which traversal uses a queue?,BFS,DFS,Preorder,Postorder,BFS,Breadth First Search uses queue
+DSA,Easy,Which traversal uses a stack?,DFS,BFS,Level Order,Inorder,DFS,Depth First Search uses stack
+DSA,Easy,What does BFS stand for?,Breadth First Search,Binary First Search,Best First Search,Breadth Fast Search,Breadth First Search,Visits level by level
+DSA,Easy,What does DFS stand for?,Depth First Search,Data First Search,Dynamic First Search,Deep Fast Search,Depth First Search,Goes deep before backtracking
+DSA,Easy,What is a complete binary tree?,All levels filled except possibly last,Every node has 2 children,Only leaf nodes,Sorted tree,All levels filled except possibly last,Special binary tree
+DSA,Easy,What is a binary tree?,Each node has at most 2 children,Each node has 3 children,Linear structure,Circular structure,Each node has at most 2 children,Common tree type
+DSA,Easy,What is a parent node?,Node with children,Node without children,Root node,Leaf node,Node with children,Parent of other nodes
+DSA,Easy,What is a child node?,Node connected below parent,Top node,Leaf only,Root only,Node connected below parent,Descendant node
+DSA,Easy,What is the height of a tree?,Longest path from root to leaf,Number of nodes,Number of leaves,Number of edges,Longest path from root to leaf,Measures tree depth
+DSA,Easy,What is an edge in a tree?,Connection between nodes,Node without child,Top node,Leaf node,Connection between nodes,Links two nodes
+DSA,Easy,Which data structure is best for undo operations?,Stack,Queue,Tree,Graph,Stack,LIFO behavior
+DSA,Easy,Which data structure is best for printer scheduling?,Queue,Stack,Tree,Graph,Queue,FIFO processing
+DSA,Easy,What is a sparse graph?,Graph with few edges,Graph with many edges,Tree graph,Cyclic graph,Graph with few edges,Edges are less than maximum possible
+DSA,Easy,What is a dense graph?,Graph with many edges,Graph with few edges,Tree graph,Directed graph,Graph with many edges,Edges close to maximum possible
+DSA,Easy,Which structure stores key-value pairs efficiently?,Hash Table,Queue,Stack,Tree,Hash Table,Uses hashing
+DSA,Easy,What is hashing?,Mapping data to fixed values,Sorting data,Searching data,Deleting data,Mapping data to fixed values,Generates hash codes
+DSA,Easy,What is collision in hashing?,Two keys map to same index,Data deletion,Sorting error,Memory overflow,Two keys map to same index,Common hashing issue
+DSA,Easy,Which search checks every element one by one?,Linear Search,Binary Search,DFS,BFS,Linear Search,Sequential search method  
+
+
+DSA,Medium,What is the average time complexity of Binary Search?,O(log n),O(n),O(n log n),O(1),O(log n),Binary search divides search space in half
+DSA,Medium,What is the worst-case time complexity of Quick Sort?,O(n²),O(n log n),O(log n),O(n),O(n²),Occurs with poor pivot selection
+DSA,Medium,What is the average time complexity of Quick Sort?,O(n log n),O(n²),O(log n),O(n),O(n log n),Efficient divide and conquer sorting
+DSA,Medium,Which sorting algorithm is stable?,Merge Sort,Heap Sort,Quick Sort,Selection Sort,Merge Sort,Maintains relative order of equal elements
+DSA,Medium,Which sorting algorithm uses Divide and Conquer?,Merge Sort,Bubble Sort,Insertion Sort,Selection Sort,Merge Sort,Recursively divides array
+DSA,Medium,What is the time complexity of Merge Sort?,O(n log n),O(n²),O(log n),O(n),O(n log n),Efficient sorting algorithm
+DSA,Medium,What is the space complexity of Merge Sort?,O(n),O(1),O(log n),O(n²),O(n),Requires extra array
+DSA,Medium,What is the best case complexity of Insertion Sort?,O(n),O(n²),O(log n),O(n log n),O(n),Already sorted array
+DSA,Medium,Which data structure is used in BFS?,Queue,Stack,Heap,Array,Queue,Level-order traversal
+DSA,Medium,Which data structure is used in DFS?,Stack,Queue,Heap,Hash Table,Stack,Depth traversal
+DSA,Medium,What is a balanced binary tree?,Height difference ≤ 1,Every node has 2 children,Complete tree,Perfect tree,Height difference ≤ 1,Improves search efficiency
+DSA,Medium,What is AVL Tree?,Self-balancing BST,Heap,Graph,Hash Table,Self-balancing BST,Maintains balance factor
+DSA,Medium,What is the balance factor in AVL Tree?,Height(left)-Height(right),Nodes-Edges,Children count,Tree height,Height(left)-Height(right),Used to maintain balance
+DSA,Medium,What is the maximum balance factor in AVL Tree?,1,2,0,3,1,AVL balance factor range is -1 to 1
+DSA,Medium,What is a Binary Search Tree?,Left < Root < Right,Sorted Array,Heap Structure,Graph,Left < Root < Right,BST property
+DSA,Medium,What is the average search complexity in BST?,O(log n),O(n),O(n²),O(1),O(log n),For balanced BST
+DSA,Medium,What is a Heap?,Complete Binary Tree,Graph,Linked List,Queue,Complete Binary Tree,Used in priority queues
+DSA,Medium,What is a Max Heap?,Parent ≥ Children,Parent ≤ Children,Sorted Tree,Balanced Tree,Parent ≥ Children,Largest element at root
+DSA,Medium,What is a Min Heap?,Parent ≤ Children,Parent ≥ Children,Balanced Tree,Sorted Tree,Parent ≤ Children,Smallest element at root
+DSA,Medium,What is the complexity of Heap Insert?,O(log n),O(n),O(1),O(n log n),O(log n),Requires heapify
+DSA,Medium,What is the complexity of Heap Delete?,O(log n),O(n),O(1),O(n²),O(log n),Heap rebalancing required
+DSA,Medium,What is a Priority Queue?,Elements processed by priority,FIFO queue,LIFO queue,Sorted array,Elements processed by priority,Higher priority served first
+DSA,Medium,What is a Circular Queue?,Queue with wrap-around,Double-ended queue,Stack queue,Linked queue,Queue with wrap-around,Efficient memory usage
+DSA,Medium,What is a Deque?,Double Ended Queue,Circular Queue,Priority Queue,Stack,Double Ended Queue,Insertion/deletion at both ends
+DSA,Medium,What is the time complexity of searching in a Hash Table (average case)?,O(1),O(log n),O(n),O(n log n),O(1),Direct access via hashing  
+DSA,Medium,What is the worst-case time complexity of searching in a Hash Table?,O(n),O(1),O(log n),O(n log n),O(n),Occurs due to collisions
+DSA,Medium,What is collision resolution by chaining?,Using linked lists at each index,Using arrays only,Using trees only,Using stacks only,Using linked lists at each index,Common collision handling method
+DSA,Medium,What is open addressing?,Store elements in alternate slots,Using linked lists,Using trees,Using graphs,Store elements in alternate slots,Collision resolution technique
+DSA,Medium,What is linear probing?,Search next available slot sequentially,Use linked list,Use tree,Use stack,Search next available slot sequentially,Open addressing method
+DSA,Medium,What is quadratic probing?,Uses quadratic function for probing,Uses linked list,Uses binary search,Uses recursion,Uses quadratic function for probing,Reduces clustering
+DSA,Medium,What is double hashing?,Uses second hash function,Uses two arrays,Uses recursion twice,Uses double linked list,Uses second hash function,Collision resolution method
+DSA,Medium,What is the load factor in hashing?,Filled slots/Total slots,Total slots/Filled slots,Number of collisions,Hash value,Filled slots/Total slots,Measures table occupancy
+DSA,Medium,What is an adjacency matrix?,Graph representation using 2D array,Linked list representation,Tree representation,Hash table representation,Graph representation using 2D array,Efficient for dense graphs
+DSA,Medium,What is an adjacency list?,Graph representation using linked lists,2D array graph,Hash graph,Queue graph,Graph representation using linked lists,Efficient for sparse graphs
+DSA,Medium,What is a connected graph?,Path exists between every pair of vertices,No edges,Only one vertex,Contains cycle,Path exists between every pair of vertices,All vertices reachable
+DSA,Medium,What is a disconnected graph?,Some vertices unreachable,All vertices connected,Tree graph,Directed graph,Some vertices unreachable,Not fully connected
+DSA,Medium,What is a cyclic graph?,Contains at least one cycle,Acyclic graph,Directed graph,Complete graph,Contains at least one cycle,Path returns to starting vertex
+DSA,Medium,What is an acyclic graph?,Contains no cycles,Contains one cycle,Complete graph,Directed graph,Contains no cycles,No closed paths
+DSA,Medium,What is a directed graph?,Edges have direction,Undirected edges,Tree graph,Weighted graph,Edges have direction,Also called digraph
+DSA,Medium,What is an undirected graph?,Edges have no direction,Directed graph,Weighted graph,Cyclic graph,Edges have no direction,Two-way connections
+DSA,Medium,What is a weighted graph?,Edges have weights,Directed graph,Tree graph,Connected graph,Edges have weights,Represents costs/distances
+DSA,Medium,What is topological sorting used for?,Ordering vertices in DAG,Sorting arrays,Searching graphs,Building heaps,Ordering vertices in DAG,Dependency resolution
+DSA,Medium,Which graph must be used for topological sorting?,DAG,Cyclic Graph,Tree,Complete Graph,DAG,Directed Acyclic Graph required
+DSA,Medium,What does DAG stand for?,Directed Acyclic Graph,Data Acyclic Graph,Directed Array Graph,Data Algorithm Graph,Directed Acyclic Graph,Used in scheduling
+DSA,Medium,Which algorithm finds shortest path in weighted graph?,Dijkstra,BFS,DFS,Bubble Sort,Dijkstra,Greedy shortest path algorithm
+DSA,Medium,What is the complexity of Dijkstra using priority queue?,O((V+E)logV),O(V²),O(E²),O(logV),O((V+E)logV),Efficient implementation
+DSA,Medium,Which algorithm finds Minimum Spanning Tree?,Kruskal,Dijkstra,BFS,DFS,Kruskal,Greedy MST algorithm
+DSA,Medium,Which data structure is used in Kruskal Algorithm?,Disjoint Set,Stack,Queue,Heap,Disjoint Set,Union-Find structure
+DSA,Medium,What is Union-Find used for?,Detecting connected components,Sorting arrays,Searching trees,Hashing,Detecting connected components,Efficient set operations
+DSA,Medium,What is path compression in Union-Find?,Flattens tree structure,Creates new tree,Deletes nodes,Adds edges,Flattens tree structure,Improves performance 
+
+
+DSA,Hard,What is the worst-case time complexity of Quick Sort?,O(n²),O(n log n),O(log n),O(n),O(n²),Occurs when pivot selection is poor
+DSA,Hard,What is the average-case complexity of Quick Sort?,O(n log n),O(n²),O(n),O(log n),O(n log n),Efficient divide-and-conquer sorting
+DSA,Hard,Which sorting algorithm has worst-case O(n log n) and is in-place?,Heap Sort,Merge Sort,Bubble Sort,Insertion Sort,Heap Sort,Uses binary heap
+DSA,Hard,What is the time complexity of Heap Sort?,O(n log n),O(n²),O(log n),O(n),O(n log n),Build heap then extract
+DSA,Hard,What is the auxiliary space complexity of Heap Sort?,O(1),O(n),O(log n),O(n²),O(1),In-place sorting
+DSA,Hard,Which data structure is used in recursion internally?,Call Stack,Queue,Heap,Tree,Call Stack,Stores function calls
+DSA,Hard,What is tail recursion?,Recursive call is last statement,First statement recursive,Multiple recursive calls,No recursion,Tail recursion can be optimized
+DSA,Hard,What is memoization?,Caching computed results,Sorting cache,Hashing data,Compressing memory,Caching computed results,Used in Dynamic Programming
+DSA,Hard,What is Dynamic Programming?,Optimization using overlapping subproblems,Graph traversal,Sorting method,Searching algorithm,Optimization using overlapping subproblems,Stores previous results
+DSA,Hard,Which problem is solved using Dynamic Programming?,Knapsack Problem,Linear Search,BFS,Selection Sort,Knapsack Problem,Classic DP problem
+DSA,Hard,What is the time complexity of Fibonacci using DP?,O(n),O(2ⁿ),O(log n),O(n²),O(n),Stores computed values
+DSA,Hard,Which traversal is used to clone a graph?,DFS or BFS,Only DFS,Only BFS,Preorder,DFS or BFS,Both approaches work
+DSA,Hard,What is a spanning tree?,Tree connecting all vertices,Binary tree,AVL tree,Heap tree,Tree connecting all vertices,Contains all vertices
+DSA,Hard,How many edges are present in a spanning tree with n vertices?,n-1,n,n+1,2n,n-1,Property of trees
+DSA,Hard,What is a Minimum Spanning Tree?,Spanning tree with minimum weight,Shortest path tree,Binary tree,Balanced tree,Spanning tree with minimum weight,Optimizes total edge cost
+DSA,Hard,Which algorithm is used for MST?,Prim's Algorithm,Binary Search,Dijkstra,BFS,Prim's Algorithm,Greedy MST algorithm
+DSA,Hard,Which algorithm uses edge sorting for MST?,Kruskal's Algorithm,Prim's Algorithm,Dijkstra,DFS,Kruskal's Algorithm,Sorts edges by weight
+DSA,Hard,What is the complexity of Kruskal's Algorithm?,O(E log E),O(V²),O(E²),O(V log V),O(E log E),Due to sorting edges
+DSA,Hard,What is the complexity of Prim's Algorithm using heap?,O(E log V),O(V²),O(E²),O(log V),O(E log V),Efficient MST implementation
+DSA,Hard,Which algorithm finds shortest path in graphs with negative edges?,Bellman-Ford,Dijkstra,BFS,DFS,Bellman-Ford,Handles negative weights
+DSA,Hard,What is Bellman-Ford complexity?,O(VE),O(E log V),O(V²),O(E²),O(VE),Relaxes all edges repeatedly
+DSA,Hard,Which algorithm detects negative cycles?,Bellman-Ford,Dijkstra,Kruskal,Prim,Bellman-Ford,Negative cycle detection feature
+DSA,Hard,Which algorithm finds shortest paths between all pairs?,Floyd-Warshall,Bellman-Ford,Dijkstra,BFS,Floyd-Warshall,All-pairs shortest path
+DSA,Hard,What is Floyd-Warshall complexity?,O(V³),O(V²),O(E log V),O(VE),O(V³),Triple nested loops
+DSA,Hard,What is backtracking?,Try, fail, and undo approach,Sorting technique,Searching algorithm,Hashing method,Try fail and undo approach,Used in N-Queens and Sudoku 
+DSA,Hard,What is branch and bound?,Optimization technique using bounds,Sorting method,Searching algorithm,Hashing technique,Optimization technique using bounds,Used for optimization problems
+DSA,Hard,Which problem is commonly solved using backtracking?,N-Queens,Merge Sort,Binary Search,Heap Sort,N-Queens,Classic backtracking problem
+DSA,Hard,What is the time complexity of N-Queens backtracking?,O(N!),O(N²),O(log N),O(N),O(N!),Exponential search space
+DSA,Hard,What is a Trie?,Prefix tree,Heap structure,Graph structure,Hash table,Prefix tree,Efficient string storage
+DSA,Hard,What is the search complexity in Trie?,O(L),O(log n),O(n),O(n log n),O(L),L = length of word
+DSA,Hard,Which algorithm is used for string pattern matching?,KMP Algorithm,BFS,DFS,Dijkstra,KMP Algorithm,Efficient pattern searching
+DSA,Hard,What is KMP worst-case complexity?,O(n+m),O(n²),O(m²),O(log n),O(n+m),Linear pattern matching
+DSA,Hard,What does LPS stand for in KMP?,Longest Prefix Suffix,Longest Pattern Search,Linear Prefix Search,Longest Path String,Longest Prefix Suffix,Used to avoid rechecking
+DSA,Hard,Which algorithm uses rolling hash?,Rabin-Karp,KMP,Dijkstra,Floyd-Warshall,Rabin-Karp,Pattern matching algorithm
+DSA,Hard,What is Rabin-Karp average complexity?,O(n+m),O(n²),O(log n),O(m²),O(n+m),Hash-based matching
+DSA,Hard,What is a Segment Tree?,Tree for range queries,Search tree,Heap tree,AVL tree,Tree for range queries,Efficient query processing
+DSA,Hard,What is Segment Tree query complexity?,O(log n),O(n),O(n²),O(1),O(log n),Fast range operations
+DSA,Hard,What is Segment Tree update complexity?,O(log n),O(n),O(n²),O(1),O(log n),Efficient updates
+DSA,Hard,What is a Fenwick Tree?,Binary Indexed Tree,AVL Tree,Heap Tree,Trie Tree,Binary Indexed Tree,Used for prefix sums
+DSA,Hard,What is Fenwick Tree query complexity?,O(log n),O(n),O(1),O(n²),O(log n),Efficient cumulative operations
+DSA,Hard,What is amortized analysis?,Average cost over operations,Worst-case analysis,Best-case analysis,Space analysis,Average cost over operations,Used in dynamic arrays
+DSA,Hard,What is the amortized insertion complexity in dynamic arrays?,O(1),O(n),O(log n),O(n²),O(1),Average insertion cost
+DSA,Hard,What is a Red-Black Tree?,Self-balancing BST,Heap,Trie,Graph,Self-balancing BST,Uses color properties
+DSA,Hard,What is the maximum height of a Red-Black Tree?,O(log n),O(n),O(n log n),O(1),O(log n),Maintains balance
+DSA,Hard,What is a B-Tree?,Balanced multiway search tree,Binary tree,Heap tree,Trie tree,Balanced multiway search tree,Used in databases
+DSA,Hard,What is the search complexity of B-Tree?,O(log n),O(n),O(1),O(n²),O(log n),Efficient disk access
+DSA,Hard,Which traversal gives sorted order in BST?,Inorder,Preorder,Postorder,Levelorder,Inorder,Visits nodes in ascending order
+DSA,Hard,What is an Euler Path?,Visits every edge exactly once,Visits every vertex once,Shortest path,MST,Visits every edge exactly once,Graph theory concept
+DSA,Hard,What is a Hamiltonian Path?,Visits every vertex exactly once,Visits every edge once,Shortest path,Cycle tree,Visits every vertex exactly once,NP-complete problem
+DSA,Hard,What is NP-Complete?,Problems verifiable in polynomial time and NP-hard,Easy problems,Sorting problems,Searching problems,Problems verifiable in polynomial time and NP-hard,Important complexity class 
+
+

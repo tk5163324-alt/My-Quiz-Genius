@@ -1,0 +1,155 @@
+subject,difficulty,question,option_a,option_b,option_c,option_d,answer,explanation
+Operating System,Easy,What is an Operating System?,System software,Application software,Compiler,Database,System software,Manages computer resources
+Operating System,Easy,Which OS is open source?,Linux,Windows,MS Office,Oracle,Linux,Popular open-source OS
+Operating System,Easy,Which OS is developed by Microsoft?,Windows,Linux,Ubuntu,Android,Windows,Microsoft operating system
+Operating System,Easy,What is the primary function of an OS?,Resource Management,Web Browsing,Programming,Database Storage,Resource Management,Manages hardware and software
+Operating System,Easy,Which of these is not an OS?,MS Word,Windows,Linux,macOS,MS Word,It is an application
+Operating System,Easy,What is a Process?,Program in execution,Stored file,Compiler,CPU register,Program in execution,Basic unit of execution
+Operating System,Easy,What is CPU scheduling?,Selecting process for execution,Formatting disk,Creating files,Managing printers,Selecting process for execution,Allocates CPU time
+Operating System,Easy,What is a Thread?,Lightweight process,Heavy process,Program file,CPU register,Lightweight process,Smallest execution unit
+Operating System,Easy,Which memory is fastest?,Cache,RAM,Hard Disk,SSD,Cache,Closest to CPU
+Operating System,Easy,What does RAM stand for?,Random Access Memory,Read Access Memory,Rapid Access Memory,Random Allocation Memory,Random Access Memory,Primary memory
+Operating System,Easy,What is ROM?,Read Only Memory,Random Only Memory,Read Open Memory,Rapid Output Memory,Read Only Memory,Non-volatile memory
+Operating System,Easy,Which memory is volatile?,RAM,ROM,Hard Disk,SSD,RAM,Loses data when power is off
+Operating System,Easy,What is a file system?,Method of organizing files,Programming language,Database system,Compiler,Method of organizing files,Manages storage
+Operating System,Easy,Which device stores data permanently?,Hard Disk,RAM,Cache,Register,Hard Disk,Secondary storage
+Operating System,Easy,What is Booting?,Starting the computer,Shutting down,Formatting disk,Installing software,Starting the computer,Loads OS into memory
+Operating System,Easy,Which program loads OS during startup?,Bootloader,Compiler,Assembler,Editor,Bootloader,Starts operating system
+Operating System,Easy,What is Multiprogramming?,Multiple programs in memory,Multiple CPUs,Multiple users,Multiple files,Multiple programs in memory,Improves CPU utilization
+Operating System,Easy,What is Multitasking?,Running multiple tasks simultaneously,Multiple CPUs,Multiple users,Multiple files,Running multiple tasks simultaneously,Common OS feature
+Operating System,Easy,What is Time Sharing?,CPU shared among users,Memory sharing,Disk sharing,Network sharing,CPU shared among users,Supports multiple users
+Operating System,Easy,What is a Device Driver?,Software controlling hardware,Hardware device,Compiler,OS kernel,Software controlling hardware,Enables hardware communication
+Operating System,Easy,What is Kernel?,Core part of OS,Application software,Database,Compiler,Core part of OS,Manages resources
+Operating System,Easy,Which OS is used in smartphones?,Android,Windows XP,DOS,UNIX,Android,Mobile operating system
+Operating System,Easy,What is GUI?,Graphical User Interface,General User Input,Graphic Utility Interface,Global User Interface,Graphical User Interface,User-friendly interface
+Operating System,Easy,What is CLI?,Command Line Interface,Control Line Input,Command Logic Interface,Central Line Interface,Command Line Interface,Text-based interface
+Operating System,Easy,What is UNIX?,Operating System,Compiler,Database,Browser,Operating System,Multiuser OS
+Operating System,Easy,What is the main purpose of scheduling?,Efficient CPU utilization,Increase RAM,Reduce storage,Install software,Efficient CPU utilization,CPU scheduling improves performance
+Operating System,Easy,Which scheduling algorithm follows First Come First Serve?,FCFS,SJF,Round Robin,Priority,FCFS,Executes in arrival order
+Operating System,Easy,What is context switching?,Switching CPU between processes,Changing OS,Formatting disk,Switching users,Switching CPU between processes,Saves and loads process state
+Operating System,Easy,What is a deadlock?,Processes waiting forever,Process completion,CPU scheduling,Memory allocation,Processes waiting forever,Resource allocation issue
+Operating System,Easy,What is starvation?,Process never gets CPU,Process crashes,System reboot,Memory leak,Process never gets CPU,Occurs in priority scheduling
+Operating System,Easy,Which scheduling algorithm uses time quantum?,Round Robin,FCFS,SJF,Priority,Round Robin,Time-sharing algorithm
+Operating System,Easy,What is paging?,Memory management technique,CPU scheduling,Disk formatting,File creation,Memory management technique,Divides memory into pages
+Operating System,Easy,What is a page?,Fixed-size memory block,File,System call,CPU instruction,Fixed-size memory block,Used in paging
+Operating System,Easy,What is virtual memory?,Extension of RAM using disk,Cache memory,ROM memory,CPU register,Extension of RAM using disk,Allows larger programs
+Operating System,Easy,What is swapping?,Moving processes between RAM and disk,Deleting memory,Formatting RAM,Creating files,Moving processes between RAM and disk,Memory management technique
+Operating System,Easy,What is fragmentation?,Wasted memory space,CPU idle time,Disk crash,File corruption,Wasted memory space,Occurs in memory allocation
+Operating System,Easy,What is internal fragmentation?,Unused space inside allocated block,Unused files,Unused CPU time,Unused disk space,Unused space inside allocated block,Memory waste
+Operating System,Easy,What is external fragmentation?,Free memory scattered into small blocks,CPU waste,File duplication,Disk error,Free memory scattered into small blocks,Makes allocation difficult
+Operating System,Easy,What is a semaphore?,Synchronization tool,Memory unit,Disk scheduler,Compiler,Synchronization tool,Controls resource access
+Operating System,Easy,What is mutual exclusion?,Only one process accesses resource at a time,Multiple users access system,Memory sharing,Disk sharing,Only one process accesses resource at a time,Prevents conflicts
+Operating System,Easy,What is a critical section?,Code accessing shared resources,Kernel code,Boot code,Device driver,Code accessing shared resources,Needs synchronization
+Operating System,Easy,What is process synchronization?,Coordinating process execution,Process deletion,CPU scheduling,Memory allocation,Coordinating process execution,Avoids inconsistencies
+Operating System,Easy,What is IPC?,Inter Process Communication,Internal Program Compiler,Input Process Control,Instruction Processing Cycle,Inter Process Communication,Processes exchange data
+Operating System,Easy,Which IPC method uses shared memory?,Shared Memory,Compiler,Threading,Scheduling,Shared Memory,Fast communication method
+Operating System,Easy,What is a system call?,Interface between user and OS,Programming language,CPU instruction,Database query,Interface between user and OS,Requests OS services
+Operating System,Easy,Which system call creates a process in UNIX?,fork(),create(),spawn(),exec(),fork(),Creates child process
+Operating System,Easy,What is throughput?,Number of completed processes,Memory size,CPU speed,Disk size,Number of completed processes,Performance metric
+Operating System,Easy,What is turnaround time?,Completion time minus arrival time,CPU execution time,Waiting time,Response time,Completion time minus arrival time,Scheduling metric
+Operating System,Easy,What is waiting time?,Time spent in ready queue,Execution time,Response time,Turnaround time,Time spent in ready queue,Performance measure
+Operating System,Easy,What is response time?,Time to first response,Completion time,Waiting time,CPU burst time,Time to first response,Important in interactive systems 
+
+
+Operating System,Medium,What is the main goal of CPU Scheduling?,Maximize CPU utilization,Increase disk size,Reduce RAM,Increase files,Maximize CPU utilization,Efficient process execution
+Operating System,Medium,Which scheduling algorithm gives minimum average waiting time?,SJF,FCFS,Round Robin,Priority,SJF,Shortest Job First
+Operating System,Medium,What is Preemptive Scheduling?,CPU can be taken from running process,CPU cannot be interrupted,No scheduling,Disk scheduling,CPU can be taken from running process,Supports multitasking
+Operating System,Medium,What is Non-Preemptive Scheduling?,CPU remains until process finishes,CPU switches every second,No CPU use,Kernel scheduling,CPU remains until process finishes,Simple scheduling
+Operating System,Medium,Which scheduling algorithm is preemptive?,Round Robin,FCFS,SJF Non-preemptive,FIFO,Round Robin,Uses time quantum
+Operating System,Medium,What is Priority Scheduling?,Processes executed by priority,Processes executed randomly,FCFS execution,Memory scheduling,Processes executed by priority,Higher priority runs first
+Operating System,Medium,What is Aging in OS?,Increasing priority over time,Increasing RAM,Increasing storage,Increasing CPU speed,Increasing priority over time,Prevents starvation
+Operating System,Medium,What is Thrashing?,Excessive paging activity,CPU overheating,Disk failure,System crash,Excessive paging activity,Reduces performance
+Operating System,Medium,What is Demand Paging?,Pages loaded when needed,Load all pages initially,Disk scheduling,CPU scheduling,Pages loaded when needed,Saves memory
+Operating System,Medium,What is Page Fault?,Referenced page not in memory,Disk error,CPU error,File error,Referenced page not in memory,Triggers page loading
+Operating System,Medium,What is Page Replacement?,Replacing memory pages,Replacing files,Replacing CPUs,Replacing threads,Replacing memory pages,Needed when memory is full
+Operating System,Medium,Which page replacement algorithm replaces oldest page?,FIFO,LRU,Optimal,Clock,FIFO,First In First Out
+Operating System,Medium,Which page replacement algorithm uses recent usage?,LRU,FIFO,Optimal,FCFS,LRU,Least Recently Used
+Operating System,Medium,Which page replacement algorithm gives minimum faults theoretically?,Optimal,FIFO,LRU,Clock,Optimal,Best possible algorithm
+Operating System,Medium,What is a Frame?,Physical memory block,Disk block,CPU register,Thread block,Physical memory block,Holds pages
+Operating System,Medium,What is Belady's Anomaly?,More frames causing more page faults,Memory leak,CPU deadlock,Disk crash,More frames causing more page faults,Occurs in FIFO
+Operating System,Medium,What is a Zombie Process?,Completed process still in process table,Running process,Waiting process,Suspended process,Completed process still in process table,Parent has not collected status
+Operating System,Medium,What is an Orphan Process?,Child process whose parent terminated,Blocked process,Zombie process,Dead process,Child process whose parent terminated,Adopted by init/systemd
+Operating System,Medium,What is Process Control Block?,Stores process information,Stores files,Stores memory pages,Stores drivers,Stores process information,Contains process metadata
+Operating System,Medium,What is Dispatch Latency?,Time taken to switch processes,Execution time,Waiting time,Response time,Time taken to switch processes,Scheduling overhead
+Operating System,Medium,What is Multiprocessing?,Using multiple CPUs,Using multiple files,Using multiple disks,Using multiple users,Using multiple CPUs,Improves performance
+Operating System,Medium,What is Symmetric Multiprocessing?,All CPUs treated equally,One CPU controls others,Single CPU system,Distributed system,All CPUs treated equally,Common multiprocessor architecture
+Operating System,Medium,What is a Kernel Thread?,Thread managed by OS kernel,User-created thread,Background task,Disk thread,Thread managed by OS kernel,Kernel schedules it
+Operating System,Medium,What is a User Thread?,Thread managed in user space,Kernel thread,System process,Daemon process,Thread managed in user space,Faster creation
+Operating System,Medium,What is a Context Switch Overhead?,Extra time spent switching processes,Execution time,Memory allocation time,Disk access time,Extra time spent switching processes,Reduces CPU efficiency 
+Operating System,Medium,What is Disk Scheduling?,Managing order of disk requests,Managing CPU tasks,Managing memory,Managing files,Managing order of disk requests,Improves disk performance
+Operating System,Medium,Which disk scheduling algorithm serves requests in arrival order?,FCFS,SSTF,SCAN,C-SCAN,FCFS,Simple scheduling method
+Operating System,Medium,Which disk scheduling algorithm selects nearest request?,SSTF,FCFS,SCAN,C-SCAN,SSTF,Shortest Seek Time First
+Operating System,Medium,What does SCAN algorithm resemble?,Elevator movement,Round Robin,Priority queue,Stack,Elevator movement,Disk arm moves back and forth
+Operating System,Medium,What is C-SCAN?,Circular SCAN algorithm,CPU scheduler,Memory allocator,File manager,Circular SCAN algorithm,Provides uniform waiting time
+Operating System,Medium,What is RAID?,Redundant Array of Independent Disks,Random Access Internal Disk,Rapid Access Input Device,Read And Input Disk,Redundant Array of Independent Disks,Improves reliability and performance
+Operating System,Medium,What is RAID 0?,Disk Striping,Disk Mirroring,Parity Storage,Backup Disk,Disk Striping,Improves performance
+Operating System,Medium,What is RAID 1?,Disk Mirroring,Disk Striping,Parity Storage,Caching,Disk Mirroring,Provides fault tolerance
+Operating System,Medium,What is File Allocation Table?,Method for tracking files,Memory table,CPU table,Disk scheduler,Method for tracking files,Used in FAT file systems
+Operating System,Medium,What is a Directory?,Container for files and folders,Memory location,CPU process,Disk sector,Container for files and folders,Organizes files
+Operating System,Medium,What is a Distributed System?,Multiple computers working together,Single computer system,Multi-user OS,Embedded system,Multiple computers working together,Appears as one system
+Operating System,Medium,What is Network Operating System?,OS managing network resources,Mobile OS,Embedded OS,Standalone OS,OS managing network resources,Supports networking
+Operating System,Medium,What is Real-Time Operating System?,OS with strict timing requirements,Desktop OS,Network OS,Batch OS,OS with strict timing requirements,Used in critical systems
+Operating System,Medium,What is Hard Real-Time System?,Missing deadline is unacceptable,Flexible deadlines,Desktop environment,Batch processing,Missing deadline is unacceptable,Critical applications
+Operating System,Medium,What is Soft Real-Time System?,Occasional deadline misses allowed,No deadlines,Offline processing,Memory management,Occasional deadline misses allowed,Less critical systems
+Operating System,Medium,What is Batch Processing?,Execution without user interaction,Interactive processing,Real-time processing,Threading,Execution without user interaction,Processes jobs in batches
+Operating System,Medium,What is Spooling?,Buffering jobs for device processing,CPU scheduling,Memory allocation,Disk formatting,Buffering jobs for device processing,Common in printers
+Operating System,Medium,What is DMA?,Direct Memory Access,Disk Memory Allocation,Data Memory Address,Dynamic Memory Access,Direct Memory Access,Transfers data without CPU involvement
+Operating System,Medium,What is Interrupt?,Signal requesting CPU attention,Memory block,Disk request,Process state,Signal requesting CPU attention,Handles events
+Operating System,Medium,What is Trap?,Software-generated interrupt,Hardware failure,Disk error,Memory leak,Software-generated interrupt,Generated by program execution
+Operating System,Medium,What is System Boot Time?,Time required to start OS,Execution time,Response time,CPU burst time,Time required to start OS,Measured from power-on
+Operating System,Medium,What is Load Balancing?,Distributing workload evenly,Memory allocation,Disk formatting,File organization,Distributing workload evenly,Improves performance
+Operating System,Medium,What is Resource Allocation Graph?,Graph representing resource usage,Memory map,Disk map,Network graph,Graph representing resource usage,Used in deadlock analysis
+Operating System,Medium,What is Deadlock Prevention?,Avoiding conditions causing deadlock,Removing memory,Stopping CPU,Formatting disk,Avoiding conditions causing deadlock,Proactive approach
+Operating System,Medium,What is Deadlock Avoidance?,Allocating resources safely,Deleting processes,Increasing RAM,CPU scheduling,Allocating resources safely,Uses safe-state concept 
+
+
+Operating System,Hard,What is Banker's Algorithm?,Deadlock avoidance algorithm,CPU scheduling algorithm,Disk scheduling algorithm,Memory allocation algorithm,Deadlock avoidance algorithm,Checks safe state before allocation
+Operating System,Hard,Who developed Banker's Algorithm?,Edsger Dijkstra,Dennis Ritchie,Ken Thompson,James Gosling,Edsger Dijkstra,Used for deadlock avoidance
+Operating System,Hard,What is a Safe State?,System can allocate resources safely,System is deadlocked,System is idle,System is overloaded,System can allocate resources safely,Deadlock can be avoided
+Operating System,Hard,What is Deadlock Detection?,Identifying deadlocks after occurrence,Preventing deadlocks,Avoiding deadlocks,Removing processes,Identifying deadlocks after occurrence,System checks for cycles
+Operating System,Hard,What is Circular Wait?,Processes wait in a circular chain,Process execution order,Memory allocation method,Disk scheduling technique,Processes wait in a circular chain,One condition of deadlock
+Operating System,Hard,How many Coffman conditions are required for deadlock?,4,2,3,5,4,Mutual exclusion hold-and-wait no preemption circular wait
+Operating System,Hard,What is No Preemption condition?,Resources cannot be forcibly taken,CPU cannot be interrupted,Memory cannot be allocated,Files cannot be deleted,Resources cannot be forcibly taken,Deadlock condition
+Operating System,Hard,What is Hold and Wait?,Process holds resources while requesting more,Process waits without resources,Process releases all resources,CPU scheduling policy,Process holds resources while requesting more,Deadlock condition
+Operating System,Hard,What is Mutual Exclusion?,Only one process accesses resource at a time,Multiple processes share resource,Memory sharing,Disk sharing,Only one process accesses resource at a time,Deadlock condition
+Operating System,Hard,What is Working Set Model?,Tracks actively used pages,CPU scheduling model,Disk scheduling model,File management model,Tracks actively used pages,Used to reduce thrashing
+Operating System,Hard,What is Local Page Replacement?,Replace pages of same process,Replace any page,Replace kernel pages,Replace shared memory,Replace pages of same process,Memory management strategy
+Operating System,Hard,What is Global Page Replacement?,Replace pages from any process,Replace only current process pages,Replace kernel pages,Replace cache pages,Replace pages from any process,Memory management strategy
+Operating System,Hard,What is Translation Lookaside Buffer?,Cache for page table entries,Disk cache,CPU scheduler,Memory allocator,Cache for page table entries,Speeds up address translation
+Operating System,Hard,What is Effective Access Time?,Average memory access time,CPU execution time,Disk seek time,Response time,Average memory access time,Depends on TLB hit ratio
+Operating System,Hard,What is Segmentation?,Memory divided into logical units,Memory divided into fixed pages,Disk partitioning,CPU scheduling,Memory divided into logical units,Supports logical address space
+Operating System,Hard,What is Segmentation with Paging?,Combination of segmentation and paging,Disk scheduling method,CPU scheduling algorithm,Thread management,Combination of segmentation and paging,Used in modern systems
+Operating System,Hard,What is a Dirty Page?,Modified page not yet written to disk,Corrupted page,Empty page,Shared page,Modified page not yet written to disk,Needs disk update
+Operating System,Hard,What is Copy-on-Write?,Copy memory only when modified,Copy all memory immediately,Disk cloning,File backup,Copy memory only when modified,Saves memory resources
+Operating System,Hard,What is Memory-Mapped File?,File mapped into process memory,Disk partition,Page table entry,Virtual machine file,File mapped into process memory,Fast file access
+Operating System,Hard,What is Fork System Call?,Creates child process,Deletes process,Loads process,Suspends process,Creates child process,UNIX process creation
+Operating System,Hard,What is Exec System Call?,Replaces process image with new program,Creates process,Deletes process,Suspends process,Replaces process image with new program,Loads new executable
+Operating System,Hard,What is a Daemon Process?,Background service process,Zombie process,Orphan process,User process,Background service process,Runs without user interaction
+Operating System,Hard,What is Process Migration?,Moving process between systems,Deleting process,Copying process,Scheduling process,Moving process between systems,Common in distributed systems
+Operating System,Hard,What is NUMA?,Non-Uniform Memory Access,Network Unified Memory Access,New User Memory Allocation,Normal Unified Memory Access,Non-Uniform Memory Access,Multiprocessor architecture
+Operating System,Hard,What is Hypervisor?,Software that manages virtual machines,Operating system kernel,File system manager,CPU scheduler,Software that manages virtual machines,Foundation of virtualization
+Operating System,Hard,What is Virtualization?,Creating virtual versions of resources,Increasing RAM,Disk formatting,CPU scheduling,Creating virtual versions of resources,Allows multiple virtual machines
+Operating System,Hard,What is Full Virtualization?,Complete hardware simulation,Partial simulation,Memory allocation,Process scheduling,Complete hardware simulation,Guest OS runs unmodified
+Operating System,Hard,What is Para-Virtualization?,Guest OS aware of virtualization,Full hardware simulation,Disk partitioning,Thread scheduling,Guest OS aware of virtualization,Improves performance
+Operating System,Hard,What is a Virtual Machine?,Software emulation of computer system,Physical computer,Operating system kernel,Device driver,Software emulation of computer system,Runs isolated environments
+Operating System,Hard,What is Containerization?,Lightweight virtualization using shared OS kernel,Full virtualization,Memory management,CPU scheduling,Lightweight virtualization using shared OS kernel,Used by Docker
+Operating System,Hard,What is Docker?,Containerization platform,Virtual machine,Database system,Compiler,Containerization platform,Popular container technology
+Operating System,Hard,What is Kernel Mode?,Privileged execution mode,User mode,Debug mode,Safe mode,Privileged execution mode,Access to hardware resources
+Operating System,Hard,What is User Mode?,Restricted execution mode,Kernel mode,Admin mode,Supervisor mode,Restricted execution mode,Limited hardware access
+Operating System,Hard,What is a System Trap?,Transfer from user mode to kernel mode,Disk error,Memory leak,CPU failure,Transfer from user mode to kernel mode,Allows OS services
+Operating System,Hard,What is a Monolithic Kernel?,Kernel with all services in one space,Small kernel only,Virtual kernel,Distributed kernel,Kernel with all services in one space,Example Linux
+Operating System,Hard,What is a Microkernel?,Minimal kernel with services in user space,Large kernel,Virtual kernel,Network kernel,Minimal kernel with services in user space,Improves modularity
+Operating System,Hard,Which OS uses a Microkernel approach?,MINIX,Linux,MS-DOS,Windows 95,MINIX,Educational operating system
+Operating System,Hard,What is a Hybrid Kernel?,Combination of monolithic and microkernel,Pure microkernel,Pure monolithic kernel,Virtual kernel,Combination of monolithic and microkernel,Used by Windows
+Operating System,Hard,What is IPC Message Passing?,Processes communicate through messages,Shared memory only,CPU scheduling,Disk access,Processes communicate through messages,Common IPC method
+Operating System,Hard,What is Shared Memory IPC?,Processes share memory region,Message passing only,Thread creation,CPU scheduling,Processes share memory region,Fastest IPC mechanism
+Operating System,Hard,What is Peterson's Solution?,Software solution for critical section problem,Page replacement algorithm,Disk scheduling algorithm,Deadlock detection method,Software solution for critical section problem,Works for two processes
+Operating System,Hard,What is Spinlock?,Lock where thread repeatedly checks condition,Deadlock solution,Memory allocator,Disk scheduler,Lock where thread repeatedly checks condition,Used in multiprocessors
+Operating System,Hard,What is Busy Waiting?,Continuously checking condition,Process termination,Memory allocation,Disk access,Continuously checking condition,Wastes CPU cycles
+Operating System,Hard,What is Reader-Writer Problem?,Synchronization problem with readers and writers,Disk scheduling issue,Page replacement issue,Memory allocation problem,Synchronization problem with readers and writers,Classic OS problem
+Operating System,Hard,What is Dining Philosophers Problem?,Synchronization and deadlock problem,Memory problem,Disk problem,CPU problem,Synchronization and deadlock problem,Classic concurrency problem
+Operating System,Hard,What is Producer-Consumer Problem?,Synchronization problem involving shared buffer,Disk scheduling problem,Memory allocation problem,CPU scheduling problem,Synchronization problem involving shared buffer,Uses semaphores
+Operating System,Hard,What is Semaphore Wait Operation?,Decrements semaphore value,Increments semaphore value,Deletes semaphore,Creates semaphore,Decrements semaphore value,Also called P operation
+Operating System,Hard,What is Semaphore Signal Operation?,Increments semaphore value,Decrements semaphore value,Deletes semaphore,Blocks process,Increments semaphore value,Also called V operation
+Operating System,Hard,What is Loadable Kernel Module?,Kernel component loaded at runtime,Static driver only,Bootloader,Virtual machine,Kernel component loaded at runtime,Extends kernel functionality
+Operating System,Hard,What is Exokernel?,Minimal kernel providing hardware access,Large kernel,Hybrid kernel,Distributed kernel,Minimal kernel providing hardware access,Research-oriented architecture

@@ -1,0 +1,384 @@
+{% extends 'base.html' %}
+
+
+
+{% block content %}
+
+
+
+<div class="container mt-5">
+
+
+
+<h2 class="text-center mb-4">
+    Quiz
+</h2>
+
+
+
+
+<!-- Timer -->
+
+<div class="alert alert-warning text-center">
+
+⏱ Time Left:
+
+<span id="timer">
+
+60
+
+</span>
+
+seconds
+
+</div>
+
+
+
+
+<!-- Progress Bar -->
+
+<div class="progress mb-4">
+
+
+<div 
+
+id="progressBar"
+
+class="progress-bar"
+
+role="progressbar"
+
+style="width:0%">
+
+
+0%
+
+
+</div>
+
+
+</div>
+
+
+
+
+
+
+<form method="POST" id="quizForm">
+
+
+{% csrf_token %}
+
+
+
+
+{% for q in questions %}
+
+
+
+<input type="hidden"
+
+name="question_id"
+
+value="{{q.id}}">
+
+
+
+
+
+<div class="question card shadow p-4 mb-4">
+
+
+
+<h5>
+
+
+{{forloop.counter}}. {{q.question}}
+
+
+</h5>
+
+
+
+
+<hr>
+
+
+
+
+
+<div class="form-check">
+
+
+<input 
+
+class="form-check-input"
+
+type="radio"
+
+name="question_{{q.id}}"
+
+value="{{q.option1}}">
+
+
+
+<label class="form-check-label">
+
+
+{{q.option1}}
+
+
+</label>
+
+
+</div>
+
+
+
+
+
+
+
+<div class="form-check">
+
+
+<input 
+
+class="form-check-input"
+
+type="radio"
+
+name="question_{{q.id}}"
+
+value="{{q.option2}}">
+
+
+
+<label class="form-check-label">
+
+
+{{q.option2}}
+
+
+</label>
+
+
+</div>
+
+
+
+
+
+
+
+<div class="form-check">
+
+
+<input 
+
+class="form-check-input"
+
+type="radio"
+
+name="question_{{q.id}}"
+
+value="{{q.option3}}">
+
+
+
+<label class="form-check-label">
+
+
+{{q.option3}}
+
+
+</label>
+
+
+</div>
+
+
+
+
+
+
+
+<div class="form-check">
+
+
+<input 
+
+class="form-check-input"
+
+type="radio"
+
+name="question_{{q.id}}"
+
+value="{{q.option4}}">
+
+
+
+<label class="form-check-label">
+
+
+{{q.option4}}
+
+
+</label>
+
+
+</div>
+
+
+
+
+
+</div>
+
+
+
+
+
+{% endfor %}
+
+
+
+
+
+
+<button 
+
+type="submit"
+
+name="submit_quiz"
+
+class="btn btn-success w-100">
+
+
+Submit Quiz
+
+
+</button>
+
+
+
+
+
+</form>
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+<script>
+
+
+// Timer
+
+
+let time = 60;
+
+
+
+let timer = setInterval(function(){
+
+
+
+document.getElementById("timer").innerHTML = time;
+
+
+
+time--;
+
+
+
+if(time < 0){
+
+
+
+clearInterval(timer);
+
+
+
+alert("Time is over!");
+
+
+
+document.getElementById("quizForm").submit();
+
+
+
+}
+
+
+
+},1000);
+
+
+
+
+
+
+
+// Progress Bar
+
+
+let totalQuestions = document.querySelectorAll(".question").length;
+
+
+let answeredQuestions = 0;
+
+
+
+document.querySelectorAll("input[type='radio']").forEach(function(input){
+
+
+
+input.addEventListener("change",function(){
+
+
+
+answeredQuestions++;
+
+
+
+let percent = 
+
+(answeredQuestions / totalQuestions) * 100;
+
+
+
+document.getElementById("progressBar").style.width = percent + "%";
+
+
+
+document.getElementById("progressBar").innerHTML =
+
+Math.round(percent) + "%";
+
+
+
+});
+
+
+
+});
+
+
+
+</script>
+
+
+
+
+{% endblock %}
