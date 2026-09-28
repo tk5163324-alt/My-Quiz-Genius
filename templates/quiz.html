@@ -1,0 +1,121 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<div class="container mt-5">
+
+    <div class="card shadow">
+
+        <div class="card-header d-flex justify-content-between align-items-center">
+
+            <h5>
+                Question {{ current }} of {{ total }}
+            </h5>
+
+            <h5 class="text-danger">
+                ⏳ Time Left:
+                <span id="timer">30</span>s
+            </h5>
+
+        </div>
+
+        <div class="card-body">
+
+            <h4 class="mb-4">
+                {{ question.question }}
+            </h4>
+
+            <form id="quizForm"
+                  method="POST"
+                  action="{% url 'submit_answer' %}">
+
+                {% csrf_token %}
+
+                <input
+                    type="hidden"
+                    name="answer"
+                    id="selectedAnswer"
+                    value=""
+                >
+
+                <div class="d-grid gap-2">
+
+                    <button
+                        type="button"
+                        class="btn btn-outline-primary option-btn"
+                        data-answer="{{ question.option_a }}">
+                        {{ question.option_a }}
+                    </button>
+
+                    <button
+                        type="button"
+                        class="btn btn-outline-primary option-btn"
+                        data-answer="{{ question.option_b }}">
+                        {{ question.option_b }}
+                    </button>
+
+                    <button
+                        type="button"
+                        class="btn btn-outline-primary option-btn"
+                        data-answer="{{ question.option_c }}">
+                        {{ question.option_c }}
+                    </button>
+
+                    <button
+                        type="button"
+                        class="btn btn-outline-primary option-btn"
+                        data-answer="{{ question.option_d }}">
+                        {{ question.option_d }}
+                    </button>
+
+                </div>
+
+            </form>
+
+        </div>
+
+    </div>
+
+</div>
+
+<script>
+
+let timeLeft = 30;
+
+const timer = document.getElementById("timer");
+
+const countdown = setInterval(() => {
+
+    timeLeft--;
+
+    timer.innerText = timeLeft;
+
+    if (timeLeft <= 0) {
+
+        clearInterval(countdown);
+
+        document.getElementById("selectedAnswer").value =
+            "No Answer";
+
+        document.getElementById("quizForm").submit();
+    }
+
+}, 1000);
+
+document.querySelectorAll(".option-btn").forEach(btn => {
+
+    btn.addEventListener("click", function () {
+
+        clearInterval(countdown);
+
+        document.getElementById("selectedAnswer").value =
+            this.dataset.answer;
+
+        document.getElementById("quizForm").submit();
+    });
+
+});
+
+</script>
+
+{% endblock %}

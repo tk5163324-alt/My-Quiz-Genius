@@ -1,0 +1,94 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<div class="text-center mb-5">
+
+    <h1 class="display-3">
+        QuizGenius AI
+    </h1>
+
+    <p class="lead">
+        Smart AI Question Generator & Interview Preparation Platform
+    </p>
+
+    {% if user.is_authenticated %}
+
+    <a href="/generate/" class="btn btn-primary btn-lg me-2">
+        Start Quiz
+    </a>
+
+    <a href="/dashboard/" class="btn btn-success btn-lg">
+        Dashboard
+    </a>
+
+    {% else %}
+
+    <p class="text-muted">
+        “Join now to start solving quizzes and track your progress.” <br>
+        Please Login or Register to start quiz.
+    </p>
+
+    {% endif %}
+
+</div>
+
+<div class="row">
+
+    <div class="col-md-4 mb-3">
+        <div class="card shadow">
+            <div class="card-body text-center">
+                <h4>Python</h4>
+                <p>Python Programming Quiz</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-4 mb-3">
+        <div class="card shadow">
+            <div class="card-body text-center">
+                <h4>DSA</h4>
+                <p>Data Structures & Algorithms Quiz</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-4 mb-3">
+        <div class="card shadow">
+            <div class="card-body text-center">
+                <h4>DBMS</h4>
+                <p>Database Management Systems Quiz</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-4 mb-3">
+        <div class="card shadow">
+            <div class="card-body text-center">
+                <h4>Operating System</h4>
+                <p>Operating System Quiz</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-4 mb-3">
+        <div class="card shadow">
+            <div class="card-body text-center">
+                <h4>Java</h4>
+                <p>Java Programming Quiz</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-4 mb-3">
+        <div class="card shadow">
+            <div class="card-body text-center">
+                <h4>AI & ML</h4>
+                <p>Artificial Intelligence Quiz</p>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+{% endblock %}

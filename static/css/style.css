@@ -1,0 +1,26 @@
+body{
+    background:#f4f7fc;
+    min-height:100vh;
+}
+
+.navbar-brand{
+    font-size:1.5rem;
+}
+
+.card{
+    border:none;
+    border-radius:15px;
+}
+
+.card:hover{
+    transform:translateY(-5px);
+    transition:0.3s;
+}
+
+footer{
+    margin-top:80px;
+}
+
+.btn{
+    border-radius:10px;
+}

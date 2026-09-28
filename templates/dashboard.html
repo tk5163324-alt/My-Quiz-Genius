@@ -1,0 +1,103 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<div class="container mt-5">
+
+    <div class="text-center mb-5">
+        <h1>Welcome, {{ request.user.username }}</h1>
+        <p class="text-muted">
+            Track your quiz performance and progress
+        </p>
+    </div>
+
+    <div class="row g-4">
+
+        <!-- Level Card -->
+        <div class="col-md-4">
+            <div class="card shadow border-0">
+                <div class="card-body text-center">
+                    <h2 class="text-primary">
+                        {{ profile.level }}
+                    </h2>
+                    <h5>Level</h5>
+                </div>
+            </div>
+        </div>
+
+        <!-- XP Card -->
+        <div class="col-md-4">
+            <div class="card shadow border-0">
+                <div class="card-body text-center">
+                    <h2 class="text-success">
+                        {{ profile.xp }}
+                    </h2>
+                    <h5>XP Points</h5>
+                </div>
+            </div>
+        </div>
+
+        <!-- Quiz Count Card -->
+        <div class="col-md-4">
+            <div class="card shadow border-0">
+                <div class="card-body text-center">
+                    <h2 class="text-danger">
+                        {{ total_quizzes }}
+                    </h2>
+                    <h5>Quizzes Taken</h5>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Quiz History -->
+    <div class="card shadow mt-5">
+        <div class="card-header bg-dark text-white">
+            Quiz History
+        </div>
+
+        <div class="card-body">
+
+            {% if attempts %}
+
+            <table class="table table-striped">
+
+                <thead>
+                    <tr>
+                        <th>#</th>
+                        <th>Score</th>
+                        <th>Total Questions</th>
+                        <th>Date</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+
+                    {% for attempt in attempts %}
+                    <tr>
+                        <td>{{ forloop.counter }}</td>
+                        <td>{{ attempt.score }}</td>
+                        <td>{{ attempt.total_questions }}</td>
+                        <td>{{ attempt.created_at }}</td>
+                    </tr>
+                    {% endfor %}
+
+                </tbody>
+
+            </table>
+
+            {% else %}
+
+            <div class="alert alert-info">
+                No quizzes attempted yet.
+            </div>
+
+            {% endif %}
+
+        </div>
+    </div>
+
+</div>
+
+{% endblock %}

@@ -1,0 +1,80 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<div class="container mt-5">
+
+    <div class="card shadow p-5">
+
+        <div class="text-center">
+
+            <h1>Quiz Completed!</h1>
+
+            <h2 class="mt-4">
+                Your Score
+            </h2>
+
+            <h3 class="text-success">
+                {{ score }} / {{ total }}
+            </h3>
+
+        </div>
+
+
+        {% if wrong_questions %}
+
+        <hr class="my-5">
+
+        <h3 class="text-danger">
+            Wrong Answers: {{ wrong_questions|length }}
+        </h3>
+
+
+        {% for item in wrong_questions %}
+
+        <div class="card mt-4 p-3">
+
+            <h5>
+                Q{{ forloop.counter }}. {{ item.question }}
+            </h5>
+
+            <p class="text-danger mb-1">
+                <strong>Your Answer:</strong>
+                {{ item.your_answer }}
+            </p>
+
+            <p class="text-success mb-0">
+                <strong>Correct Answer:</strong>
+                {{ item.correct_answer }}
+            </p>
+
+        </div>
+
+        {% endfor %}
+
+        {% else %}
+
+        <div class="alert alert-success mt-4 text-center">
+            🎉 Excellent! You answered all questions correctly.
+        </div>
+
+        {% endif %}
+
+
+        <div class="text-center mt-5">
+
+            <a href="/generate/" class="btn btn-success">
+                Take Another Quiz
+            </a>
+
+            <a href="/dashboard/" class="btn btn-primary">
+                Go to Dashboard
+            </a>
+
+        </div>
+
+    </div>
+
+</div>
+
+{% endblock %}

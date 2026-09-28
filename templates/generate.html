@@ -1,0 +1,85 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<div class="container mt-5">
+
+    <h1 class="mb-4">Generate Quiz</h1>
+
+    {% if error %}
+    <div class="alert alert-danger">
+        {{ error }}
+    </div>
+    {% endif %}
+
+    <form method="POST" action="{% url 'generate' %}">
+        {% csrf_token %}
+
+        <div class="row g-4">
+
+            <!-- Subject -->
+            <div class="col-md-3">
+                <label for="subject" class="form-label">
+                    Subject
+                </label>
+
+                <select name="subject" id="subject" class="form-select">
+
+                    <option value="Python">Python</option>
+                    <option value="Java">Java</option>
+                    <option value="DBMS">DBMS</option>
+                    <option value="DSA">DSA</option>
+                    <option value="Operating System">
+                        Operating System
+                    </option>
+                    <option value="AI & ML">AI & ML</option>
+
+                </select>
+            </div>
+
+
+            <!-- Difficulty -->
+            <div class="col-md-3">
+                <label for="difficulty" class="form-label">
+                    Difficulty
+                </label>
+
+                <select name="difficulty" id="difficulty" class="form-select">
+
+                    <option value="Easy">Easy</option>
+                    <option value="Medium">Medium</option>
+                    <option value="Hard">Hard</option>
+
+                </select>
+            </div>
+
+
+            <!-- Total Questions -->
+            <div class="col-md-3">
+                <label for="total_questions" class="form-label">
+                    Total Questions
+                </label>
+
+                <input type="number" name="total_questions" id="total_questions" class="form-control" value="10" min="1"
+                    max="150">
+            </div>
+
+        </div>
+
+
+        <!-- Start Quiz -->
+        <div class="mt-5">
+
+            <button type="submit" class="btn btn-success btn-lg">
+
+                Start Quiz
+
+            </button>
+
+        </div>
+
+    </form>
+
+</div>
+
+{% endblock %}

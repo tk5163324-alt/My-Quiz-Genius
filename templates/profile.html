@@ -1,0 +1,44 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<div class="container mt-5">
+
+<div class="card shadow">
+
+    <div class="card-header bg-primary text-white">
+
+        <h3>User Profile</h3>
+
+    </div>
+
+    <div class="card-body">
+
+        <h4>
+            {{ request.user.username }}
+        </h4>
+
+        <hr>
+
+        <p>
+            <strong>Email:</strong>
+            {{ request.user.email }}
+        </p>
+
+        <p>
+            <strong>Level:</strong>
+            {{ profile.level }}
+        </p>
+
+        <p>
+            <strong>XP:</strong>
+            {{ profile.xp }}
+        </p>
+
+    </div>
+
+</div>
+
+</div>
+
+{% endblock %}
